@@ -1,0 +1,77 @@
+dungeon-tracker/
+├── public/
+│   ├── assets/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   └── logos/
+│   ├── dungeon-placeholder.png
+│   ├── favicon.ico
+│   └── json/
+│       ├── dungeons.json
+│       ├── weapons.json
+│       └── encounters.json
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Dropdown.tsx
+│   │   │   ├── Modal.tsx
+│   │   │   ├── Popup.tsx
+│   │   │   └── Tabs.tsx
+│   │   ├── layout/
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Header.tsx
+│   │   │   └── Sidebar.tsx
+│   │   ├── home/
+│   │   │   ├── DungeonCard.tsx
+│   │   │   ├── DungeonGrid.tsx
+│   │   │   ├── WeeklyHighlight.tsx
+│   │   │   └── ComingSoon.tsx
+│   │   ├── dungeon/
+│   │   │   ├── DungeonDetails.tsx
+│   │   │   ├── EncounterCard.tsx
+│   │   │   ├── LootTable.tsx
+│   │   │   └── LootCard.tsx
+│   │   └── user/
+│   │       ├── FireteamCard.tsx
+│   │       ├── UserCard.tsx
+│   │       ├── UserProfile.tsx
+│   │       └── UserStats.tsx
+│   ├── pages/
+│   │   ├── api/
+│   │   │   ├── dungeons.ts
+│   │   │   ├── users.ts
+│   │   │   └── fireteams.ts
+│   │   ├── dungeons/
+│   │   │   ├── [id].tsx
+│   │   │   └── index.tsx
+│   │   ├── user/
+│   │   │   ├── [id].tsx
+│   │   │   └── history.tsx
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   │   └── index.tsx
+│   ├── styles/
+│   │   ├── animations.css
+│   │   ├── globals.css
+│   │   └── tailwind.css
+│   ├── utils/
+│   │   ├── api.ts
+│   │   ├── constants.ts
+│   │   ├── helpers.ts
+│   │   ├── dungeonUtils.ts
+│   │   └── types.ts
+│   └── hooks/
+│       ├── useAuth.ts
+│       ├── useDropdown.ts
+│       ├── useFetch.ts
+│       └── useTabs.ts
+├── .env.local
+├── .eslintrc.json
+├── .gitignore
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md

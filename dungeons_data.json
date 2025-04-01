@@ -1,0 +1,2087 @@
+[
+  {
+    "id": 2032534090,
+    "name": "The Shattered Throne",
+    "hash": 2032534090,
+    "description": "Strike back at the curse that plagues the Dreaming City.",
+    "image": "https://bungie.net/img/destiny_content/pgcr/mission_labyrinth.jpg",
+    "location": "The Dreaming City",
+    "requirements": ["Forsaken"],
+    "notes": "fart balls",
+    "exoticWeapon": 
+    {
+        "id": 814876684,
+        "name": "Wish-Ender",
+        "hash": 814876684,
+        "type": "weapon",
+        "weaponType": "Combat Bow",
+        "damageType": "Kinetic",
+        "ammoType": "Primary",
+        "image": "https://www.bungie.net/common/destiny2_content/icons/8e5d7a68305a0d1e53ccade9398c7e8b.jpg",
+        "description": "'Don't fret. It's a simple expedition. We'll be back before lunch.' —Sjur Eido, First Queen's Wrath",
+        "exoticperks": [
+            {
+                "name": "Queen's Wrath",
+                "description": "While aiming down sights with a fully drawn Bow, combatants behind walls are highlighted and arrows pierce shields. Strong against [Shield-Piercing] Barrier Champions.",
+                "image": "https://www.bungie.net/common/destiny2_content/icons/208d03958cf2e523c3fd57ab4c809137.png"
+            },
+            {
+                "name": "Broadhead",
+                "description": "Piercing arrowhead that damages the target on entry and exit. One shot can overpenetrate multiple targets.",
+                "image": "https://www.bungie.net/common/destiny2_content/icons/c27c59d81173c75afae0832fbac9151e.png"
+            }
+        ],
+        "source": "The Shattered Throne dungeon"
+    },
+    "encounters": [
+        {
+          "id": 1,
+          "name": "Erebus: The Labyrinth",
+          "description": "Defeat the Taken in the labyrinth.",
+          "mini_guide": "The Labyrinth is the first and easiest section of the Shattered Throne dungeon, though it takes time to complete. Players must defeat a Labyrinth Architect to reveal a glowing symbol, which directs them to a matching carved symbol elsewhere in the area. By locating and clearing enemy groups at these symbols, players progress through the Labyrinth. The final symbol, Bird Fly Down, signals the last fight before receiving loot and unlocking the vault to continue deeper into the dungeon.",
+          "images": [
+            {
+              "url": "tmap.png",
+              "meta": "Map of the labyrinth."
+            },
+            {
+              "url": "symbols.png",
+              "meta": "Symbols that you will encounter in the labyrinth."
+            },
+            {
+              "url": "fish.jpg",
+              "meta": "Example symbol"
+            },
+            {
+              "url": "open.png",
+              "meta": "Image of the room"
+            }
+          ],
+          "enemy_types": ["Major Taken Captains", "Major Minotaurs", "Major Phalanxes", "Taken Hobgoblins", "Taken Thrall", "Taken Acolytes"],
+          "boss": null,
+          "boss_health": null
+        },
+        {
+          "id": 2,
+          "name": "The Descent",
+          "description": "Defeat the Taken in the labyrinth.",
+          "mini_guide": "After clearing the open area of enemies, descend and take the stairs to face a Taken Captain boss. Eliminate him and his allies to unlock the next section. Proceed carefully through a sniper-filled hallway, clearing enemies before advancing. In the next room, navigate narrow beams while dealing with Ogres that can knock you into the pit below. Finally, push through a Taken film that slows movement, avoiding swarming Thrall, before climbing a large wall to reach the boss fight.",
+          "images": [
+            {
+              "url": "fall.png",
+              "meta": "Image of the fall"
+            },
+            {
+              "url": "hall.png",
+              "meta": "Hallway with snipers"
+            },
+            {
+              "url": "room.png",
+              "meta": "Catwalk room"
+            },
+            {
+              "url": "thrall.png",
+              "meta": "Thrallway"
+            },
+            {
+              "url": "scary.png",
+              "meta": "Open room before Vorgeth"
+            }
+          ],
+          "enemy_types": ["One Taken Captain", "Taken Minotaurs", "Taken Phalanxes", "Taken Hobgoblins", "Taken Knights"],
+          "boss": null,
+          "boss_health": null
+        },
+        {
+          "id": 3,
+          "name": "Vorgeth, the Corrupted",
+          "description": "Defeat Vorgeth, the Corrupted.",
+          "mini_guide": "Vorgeth is immune until you defeat four Wizards around the room and collect their buffs. Move clockwise as a team, ensuring someone stays alive to retain the buffs. Once all four Wizards are down, deposit the buffs into the fires to make Vorgeth vulnerable. During this phase, avoid his deadly Axiom Bolts and deal as much damage as possible. If he survives, repeat the process until he's defeated.",
+          "images": [
+            {
+              "url": "vorgeth.png",
+              "meta": "Vorgeth boss fight"
+            },
+            {
+              "url": "orb.png",
+              "meta": "Petitioners Mark Orbs"
+            }
+          ],
+          "enemy_types": ["Taken Wizards (Keeper of the Petitions)", "Taken Vandals", "Taken Goblins"],
+          "boss": "Vorgeth, the Corrupted",
+          "boss_health": 1226421
+        },
+        {
+          "id": 4,
+          "name": "The Climb",
+          "description": "Climb the tower to face the next challenge.",
+          "mini_guide": "After defeating Vorgeth, interact with Sjur Eido's statue to remove the Awoken Talisman and begin the Wish-Ender quest. Move forward, clearing Wizards and using lifts to ascend. Repeat this process until you reach a dead end, then take a right and carefully navigate the exploding wall. Push through the Taken Hobgoblins and hazardous obstacles before riding the final lifts to the last boss fight.",
+          "images": [
+            {
+              "url": "climb.png",
+              "meta": "Climb the tower"
+            }
+          ],
+          "enemy_types": ["Four Wizards", "Taken Captains", "Taken Thrall", "Taken Phalanxes", "Taken Hobgoblins"],
+          "boss": null,
+          "boss_health": null
+        },
+        {
+          "id": 5,
+          "name": "Dul Incaru, the Corrupted",
+          "description": "Defeat Dul Incaru, the Corrupted.",
+          "mini_guide": "At the start of the fight, clear all Psions immediately to avoid being overwhelmed. Handle the three Knights carefully, bringing them down evenly before finishing them with Supers or heavy ammo. Destroy Dul Incaru's summoned crystal when it appears to remove the Knights' shield. Once the Knights are dead, collect their buffs and focus on Dul Incaru. Use the damage boost to defeat her quickly, cleansing the buff over the cauldron if necessary. With her defeat, you've conquered the Shattered Throne.",
+          "images": [
+            {
+              "url": "dul.png",
+              "meta": "Dul Incaru boss fight"
+            }
+          ],
+          "enemy_types": ["Three Abyssal Champions (Hive Knights)", "Taken Psions"],
+          "boss": "Dul Incaru, the Corrupted",
+          "boss_health": 11238279
+        }
+    ],
+    "title": null,
+    "triumphs": [
+      {
+        "id": 349475271,
+        "name": "A Hidden Death",
+        "hash": 349475271,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Enter Mara Sov's throne world.",
+        "requirements": [
+          "Throne world discovered"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1025573696,
+        "name": "Never Again",
+        "hash": 1025573696,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete the dungeon \"The Shattered Throne.\"",
+        "requirements": [
+          "Dungeon completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1178448425,
+        "name": "Curse This",
+        "hash": 1178448425,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete the \"The Shattered Throne\" dungeon as a fireteam without dying and without leaving the activity.",
+        "requirements": [
+          "Dungeon completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3899996566,
+        "name": "Solo-nely",
+        "hash": 3899996566,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete the \"The Shattered Throne\" dungeon solo and without leaving the activity.",
+        "requirements": [
+          "Dungeon completed"
+        ],
+        "reward": {
+          "id": 185321778,
+          "name": "The Eternal Return",
+          "hash": 185321778,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/b7c314b501b6a75d4bfa029d0059b7b8.jpg",
+          "encounterId": [1, 3, 5]
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3205009787,
+        "name": "Seriously, Never Again",
+        "hash": 3205009787,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete \"The Shattered Throne\" dungeon solo without dying and without leaving the activity.",
+        "requirements": [
+          "Dungeon completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 174211525,
+        "name": "Come at Me",
+        "hash": 174211525,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete the dungeon \"The Shattered Throne\" while wearing a full set of unpurified Reverie Dawn gear.",
+        "requirements": [
+          "Dungeon completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 2436465535,
+        "name": "A Thorny Predicament",
+        "hash": 2436465535,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Overcome the Keepers of Petitions in the dungeon \"The Shattered Throne\" without extinguishing more than one sigil.",
+        "requirements": [
+          "Keepers overcome"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 4180867423,
+        "name": "Douse the Forge",
+        "hash": 4180867423,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Defeat Dûl Incaru, the Eternal Return, without allowing any of her Fatesmiths to respawn.",
+        "requirements": [
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3484341438,
+        "name": "Gimme That Bow",
+        "hash": 3484341438,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Prove yourself worthy to Sjur Eido, the first Queen's Wrath.",
+        "requirements": [
+          "Wish-Ender claimed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3853748669,
+        "name": "Once More, Together",
+        "hash": 3853748669,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of clanmates.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 2843728443,
+        "name": "Unified Front",
+        "hash": 2843728443,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a fireteam made entirely of the same Guardian class.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3067888367,
+        "name": "Electrostatic Force",
+        "hash": 3067888367,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of Arc subclasses.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 479505886,
+        "name": "Scorched Grasp",
+        "hash": 479505886,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of Solar subclasses.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3253562931,
+        "name": "Endless Abyss",
+        "hash": 3253562931,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of Void subclasses.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1078539354,
+        "name": "Frozen Over",
+        "hash": 1078539354,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of Stasis subclasses.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 763614929,
+        "name": "Threads of Fate",
+        "hash": 763614929,
+        "icon": "https://bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
+        "description": "Complete all encounters with a full fireteam of Strand subclasses.",
+        "requirements": [
+          "Keepers overcome",
+          "Maze encounter cleared",
+          "Dûl Incaru defeated"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      }
+    ],
+    "loot": [
+      {
+        "id": 1076538039,
+        "name": "Reverie Dawn Hood",
+        "hash": 1076538039,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/028311a13ba9a2502ff8f78fd18914ae.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3723679465,
+        "name": "Waking Vigil",
+        "hash": 3723679465,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/2292e2d493b8ecf2cbf8e47541475004.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3242168339,
+        "name": "Vouchsafe",
+        "hash": 3242168339,
+        "type": "weapon",
+        "weaponType": "Scout Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/873001b5ee5ed8c0175d88202cabd715.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 150052158,
+        "name": "Reverie Dawn Gloves",
+        "hash": 150052158,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/966d94a593a68415d5e7fd305faa3269.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3368092113,
+        "name": "Reverie Dawn Hauberk",
+        "hash": 3368092113,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/de7bf261be9ee014d90b626c4b80e48b.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 2465372924,
+        "name": "Tigerspite",
+        "hash": 2465372924,
+        "type": "weapon",
+        "weaponType": "Auto Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/d21bafebc1d4de2d2f0a7283dd8ffb42.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 355922321,
+        "name": "Vouchsafe",
+        "hash": 355922321,
+        "type": "weapon",
+        "weaponType": "Scout Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/96a476085bdbc5b05d35311fbc862a60.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 788771493,
+        "name": "Reverie Dawn Greaves",
+        "hash": 788771493,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/b5d7cb4a26d7859e8564e8e1b6982516.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1472713738,
+        "name": "Reverie Dawn Helm",
+        "hash": 1472713738,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/459d3005c8f02562fab317a0da5fc2f9.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3185383401,
+        "name": "Reverie Dawn Strides",
+        "hash": 3185383401,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/3cd701b6ee5852d738fe12851cdc772d.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 334171687,
+        "name": "Waking Vigil",
+        "hash": 334171687,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/ab484d7c994d83083b5cb2bb924b6ce9.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 250721843,
+        "name": "Abide the Return",
+        "hash": 250721843,
+        "type": "weapon",
+        "weaponType": "Sword",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/2085dd8a821e08044d9a7c7b62c3bfd8.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 757360370,
+        "name": "Reverie Dawn Tabard",
+        "hash": 757360370,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/22a5030321fef6b5ccfb767ed8bda2e9.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 569434520,
+        "name": "Reverie Dawn Boots",
+        "hash": 569434520,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/8a250dd89a527d2bf79e638b58da7a59.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 4023744176,
+        "name": "Reverie Dawn Mark",
+        "hash": 4023744176,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/bfacdc2476fca0525be9eb441442a300.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1478378067,
+        "name": "Reverie Dawn Gauntlets",
+        "hash": 1478378067,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/909278e091adeeaadd8587e57a6a8c16.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 2140635451,
+        "name": "Sleepless",
+        "hash": 2140635451,
+        "type": "weapon",
+        "weaponType": "Rocket Launcher",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/46b8bdb726cd4c4bad92a0a1d6ed30af.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 844097260,
+        "name": "Reverie Dawn Cloak",
+        "hash": 844097260,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/368a106e8247b652aacbe5fa57843a8c.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1394177923,
+        "name": "Reverie Dawn Bond",
+        "hash": 1394177923,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/81337c7ab48ea52f19062101229d7a53.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 346136302,
+        "name": "Retold Tale",
+        "hash": 346136302,
+        "type": "weapon",
+        "weaponType": "Shotgun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/760fec20e7c73486d928294e71cab18c.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1644160541,
+        "name": "Abide the Return",
+        "hash": 1644160541,
+        "type": "weapon",
+        "weaponType": "Sword",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/a181acd0a1aaa082980cfed6ee2805fe.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3297863558,
+        "name": "Twilight Oath",
+        "hash": 3297863558,
+        "type": "weapon",
+        "weaponType": "Sniper Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/5baeb68f78976816e0ef47d02d5a33fb.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 640114618,
+        "name": "Tigerspite",
+        "hash": 640114618,
+        "type": "weapon",
+        "weaponType": "Auto Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/2c48ce32f112ccad3ba09dc67718d6bf.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 2561756285,
+        "name": "Reverie Dawn Plate",
+        "hash": 2561756285,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/802c83f2da9c2f198037506c148c51fe.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3740842661,
+        "name": "Sleepless",
+        "hash": 3740842661,
+        "type": "weapon",
+        "weaponType": "Rocket Launcher",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/6dd05a5ffa684e38a372122732c5985c.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1874424704,
+        "name": "Twilight Oath",
+        "hash": 1874424704,
+        "type": "weapon",
+        "weaponType": "Sniper Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/6ca8ec2c9357f440f31a6f8bc3bb96f6.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 4008120231,
+        "name": "Reverie Dawn Grasps",
+        "hash": 4008120231,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/9ed2208f882fd6397e2ec4b1d799972f.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 2804026582,
+        "name": "Reverie Dawn Casque",
+        "hash": 2804026582,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/af81aa219cc82db859c9a6cea4377bdd.jpg",
+        "encounterId": [1, 3, 5]
+      }
+    ]
+  },
+  {
+    "id": 2582501063,
+    "name": "Pit of Heresy",
+    "hash": 2582501063,
+    "description": "Deep beneath Sorrow's Harbor, the Hive keep their darkest secrets.",
+    "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_pit_of_heresy.jpg",
+    "location": "The Moon",
+    "requirements": ["Shadowkeep"],
+    "exoticWeapon": 
+    {
+      "id": 1395261499,
+      "name": "Xenophage",
+      "hash": 1395261499,
+      "type": "weapon",
+      "weaponType": "Machine Gun",
+      "damageType": "Solar",
+      "ammoType": "Heavy",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/de34570a93281dc201690cfd146e6d24.jpg",
+      "exoticperks": [
+            {
+                "name": "Pyrotoxin Rounds",
+                "description": "Fires high-powered explosive ammunition.",
+                "image": "https://www.bungie.net/common/destiny2_content/icons/66cbafffadc63a73e1f4c36bde03d5fc.png"
+            },
+            {
+                "name": "Rangefinder",
+                "description": "Aiming this weapon increases its effective range and zoom magnification. Increased projectile velocity while aiming Rocket Launchers, Grenade Launchers, and Bows.",
+                "image": "https://www.bungie.net/common/destiny2_content/icons/74270d52bec24f1f5f4c987f5f37fce9.png"
+            }
+        ],
+        "source": "Acquired from the \"Metamorphosis\" quest in the Pit of Heresy dungeon."
+    },
+    "encounters": [],
+    "title": null,
+    "triumphs": [
+      {
+        "id": 243544347,
+        "name": "Destroyer of Heretics",
+        "hash": 243544347,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete the Pit of Heresy.",
+        "requirements": [
+          "\"Destroyer of Heretics\" completed"
+        ],
+        "reward": {
+          "id": 298334061,
+          "name": "Sanguine Static",
+          "hash": 298334061,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/18dc6c427a49dc411027a22b413b8b7c.jpg",
+          "encounterId": []
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 245952203,
+        "name": "Eternal Heretic",
+        "hash": 245952203,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete the \"Pit of Heresy\" dungeon as a fireteam without dying and without leaving the activity.",
+        "requirements": [
+          "\"Eternal Heretic\" completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3841336511,
+        "name": "Usurper",
+        "hash": 3841336511,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete the \"Pit of Heresy\" dungeon solo and without leaving the activity.",
+        "requirements": [
+          "\"Usurper\" completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3950599483,
+        "name": "Savior of the Deep",
+        "hash": 3950599483,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete the \"Pit of Heresy\" dungeon solo without dying and without leaving the activity.",
+        "requirements": [
+          "\"Savior of the Deep\" completed"
+        ],
+        "reward": {
+          "id": 298334060,
+          "name": "Crimson Echoes",
+          "hash": 298334060,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/bf9b9247278e8f8186b75fd1577e665f.jpg",
+          "encounterId": []
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 533149631,
+        "name": "Metamorphosis",
+        "hash": 533149631,
+        "icon": "https://bungie.net/common/destiny2_content/icons/4d792836b94f512fbd1f7ec3fb96fcbc.png",
+        "description": "Follow the clues and acquire the Exotic Machine Gun, Xenophage.",
+        "requirements": [
+          "Quest completed"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1810876745,
+        "name": "Once More, Together",
+        "hash": 1810876745,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of clanmates.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3465086611,
+        "name": "Electrostatic Force",
+        "hash": 3465086611,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of Arc subclasses.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1966601634,
+        "name": "Scorched Grasp",
+        "hash": 1966601634,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of Solar subclasses.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 2355577143,
+        "name": "Endless Abyss",
+        "hash": 2355577143,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of Void subclasses.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3749686478,
+        "name": "Frozen Over",
+        "hash": 3749686478,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of Stasis subclasses.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3464843861,
+        "name": "Threads of Fate",
+        "hash": 3464843861,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a full fireteam of Strand subclasses.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1534224343,
+        "name": "Unified Front",
+        "hash": 1534224343,
+        "icon": "https://bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        "description": "Complete all encounters with a fireteam made entirely of the same Guardian class.",
+        "requirements": [
+          "Necropolis cleared",
+          "Chamber of Suffering cleared",
+          "Cradle of Damnation cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      }
+    ],
+    "loot": [
+      {
+        "id": 2931957300,
+        "name": "Dream Breaker",
+        "hash": 2931957300,
+        "type": "weapon",
+        "weaponType": "Fusion Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/76d28c45e392b1d3f94f6cdbbcae8f10.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 2813078109,
+        "name": "Dreambane Helm",
+        "hash": 2813078109,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/f6b682f2c2b0e7c2621fc5e337d77674.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 1721938300,
+        "name": "Dreambane Hood",
+        "hash": 1721938300,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/18ebc19c6a9ac34f3d6ff284ee26e17b.jpg",
+        "encounterId": [1, 3, 5]
+      },
+      {
+        "id": 3870811754,
+        "name": "Night Terror",
+        "hash": 3870811754,
+        "type": "weapon",
+        "weaponType": "Sword",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/82752643e54291368409d8feca32de79.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3924212056,
+        "name": "Loud Lullaby",
+        "hash": 3924212056,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/eb5af35de80a8396706aaf6ffd55a5e3.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3118392309,
+        "name": "Dreambane Gloves",
+        "hash": 3118392309,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/b87b610e106662fd06d8d119f940922e.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1496857121,
+        "name": "Dreambane Cowl",
+        "hash": 1496857121,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/085e55df8dd09a7b8d1d1cee0b039ad6.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1699964364,
+        "name": "Dreambane Gauntlets",
+        "hash": 1699964364,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/53dae002fee93af7a751aa930306dcdf.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2293199928,
+        "name": "Dreambane Grips",
+        "hash": 2293199928,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/74d044ab82964e40be33555424a08d87.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2975563522,
+        "name": "Dreambane Bond",
+        "hash": 2975563522,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/226898982ff262fc21fcc0b7475c4429.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1016668089,
+        "name": "One Small Step",
+        "hash": 1016668089,
+        "type": "weapon",
+        "weaponType": "Shotgun",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/78a7c0769048bb3ed91ec929792ca3f8.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1343302889,
+        "name": "Dreambane Mark",
+        "hash": 1343302889,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/77cb2688cad66007fff3a2b1cf401165.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3434445392,
+        "name": "Dreambane Vest",
+        "hash": 3434445392,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/63f0f4fe8084877c47cc65eecde75653.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3690523502,
+        "name": "Love and Death",
+        "hash": 3690523502,
+        "type": "weapon",
+        "weaponType": "Grenade Launcher",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/48671e8480c158ada396970fed801565.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 4235863403,
+        "name": "Dreambane Robes",
+        "hash": 4235863403,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/89287c318b9854bd2f328bc29e3a5a8d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 175015316,
+        "name": "Dreambane Plate",
+        "hash": 175015316,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/c118c9eba7d7fc4abac1026848b678bb.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1645386487,
+        "name": "Tranquility",
+        "hash": 1645386487,
+        "type": "weapon",
+        "weaponType": "Sniper Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/63741982bf430abc11bbf6561963c7f9.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 328467570,
+        "name": "Dreambane Strides",
+        "hash": 328467570,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/7730902c179a7bee312acd924374aa46.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 4277547616,
+        "name": "Every Waking Moment",
+        "hash": 4277547616,
+        "type": "weapon",
+        "weaponType": "Submachine Gun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/866df0ebd4053089043da4f30c87e174.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2723909519,
+        "name": "Arc Logic",
+        "hash": 2723909519,
+        "type": "weapon",
+        "weaponType": "Auto Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/d87860738feae841541c187618cdf0c8.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2786161293,
+        "name": "Dreambane Cloak",
+        "hash": 2786161293,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/e0415bf006d34565139f39bbb7474513.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2345799798,
+        "name": "Dreambane Greaves",
+        "hash": 2345799798,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/dbeb556fa5693704d8ea2b58dbef4aaf.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3325778512,
+        "name": "A Fine Memorial",
+        "hash": 3325778512,
+        "type": "weapon",
+        "weaponType": "Machine Gun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/23085d9f1093d2f52431f0513e2d7443.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 399547095,
+        "name": "Dreambane Boots",
+        "hash": 399547095,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/d32e2313d866c96576654db4abc48344.jpg",
+        "encounterId": []
+      }
+    ]
+  },
+  {
+    "id": 1077850348,
+    "name": "Prophecy",
+    "hash": 1077850348,
+    "description": "Enter the realm of the Nine and ask the question: \"What is the nature of the Darkness?\"",
+    "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_prophecy.jpg",
+    "location": "IX Realms",
+    "requirements": [],
+    "exoticWeapon": {},
+    "encounters": [],
+    "title": null,
+    "triumphs": [
+      {
+        "id": 969826320,
+        "name": "Prophecy Complete",
+        "hash": 969826320,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete the \"Prophecy\" dungeon",
+        "requirements": [
+          "Complete the \"Prophecy\" dungeon"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 2010041484,
+        "name": "Prophecy Dungeon Flawless",
+        "hash": 2010041484,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete the \"Prophecy\" dungeon as a fireteam without dying and without leaving the activity.",
+        "requirements": [
+          "Complete the \"Prophecy\" dungeon as a fireteam without dying and without leaving the activity."
+        ],
+        "reward": {
+          "id": 2232750624,
+          "name": "Of Ten Suns",
+          "hash": 2232750624,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/39436ee40cec949e3ca043d184e66687.jpg",
+          "encounterId": []
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3002642730,
+        "name": "Prophecy Dungeon Solo",
+        "hash": 3002642730,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete the \"Prophecy\" dungeon solo and without leaving the activity.",
+        "requirements": [
+          "Complete the \"Prophecy\" dungeon solo and without leaving the activity."
+        ],
+        "reward": {
+          "id": 732682038,
+          "name": "Hareball Shell",
+          "hash": 732682038,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/7281ba2f7cc31c9c16107f26efd3f0e1.jpg",
+          "encounterId": []
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3191784400,
+        "name": "Prophecy Dungeon Solo Flawless",
+        "hash": 3191784400,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete the \"Prophecy\" dungeon solo without dying and without leaving the activity.",
+        "requirements": [
+          "Complete the \"Prophecy\" dungeon"
+        ],
+        "reward": {
+          "id": 1138508276,
+          "name": "Prophetic Visionary",
+          "hash": 1138508276,
+          "type": null,
+          "weaponType": null,
+          "armorType": null,
+          "classType": null,
+          "damageType": null,
+          "ammoType": null,
+          "image": "https://bungie.net/common/destiny2_content/icons/092f537b01b33598f0434ba04894aa72.jpg",
+          "encounterId": []
+        },
+        "isTitleRequirement": false
+      },
+      {
+        "id": 4210255650,
+        "name": "Urn It",
+        "hash": 4210255650,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Collect all the hidden urns in the dungeon \"Prophecy.\"",
+        "requirements": [
+          "Urns gathered"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1914189892,
+        "name": "Once More, Together",
+        "hash": 1914189892,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of clanmates.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 529072376,
+        "name": "Electrostatic Force",
+        "hash": 529072376,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of Arc subclasses.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3767319773,
+        "name": "Scorched Grasp",
+        "hash": 3767319773,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of Solar subclasses.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 1743100318,
+        "name": "Endless Abyss",
+        "hash": 1743100318,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of Void subclasses.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3035458839,
+        "name": "Frozen Over",
+        "hash": 3035458839,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of Stasis subclasses.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 2511965200,
+        "name": "Threads of Fate",
+        "hash": 2511965200,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a full fireteam of Strand subclasses.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      },
+      {
+        "id": 3817780576,
+        "name": "Unified Front",
+        "hash": 3817780576,
+        "icon": "https://bungie.net/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+        "description": "Complete all encounters with a fireteam made entirely of the same Guardian class.",
+        "requirements": [
+          "Heaven/Hell Cleared",
+          "Hexahedron Cleared",
+          "Singularity Cleared"
+        ],
+        "reward": null,
+        "isTitleRequirement": false
+      }
+    ],
+    "loot": [
+      {
+        "id": 1900280383,
+        "name": "Mark Judgment (CODA)",
+        "hash": 1900280383,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/41bf4d7c162e2add253ec609fab3f19b.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2966633380,
+        "name": "Bond Judgment (CODA)",
+        "hash": 2966633380,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/c4636d84e0bc2715ba81feb864924dd7.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 4194072668,
+        "name": "Flowing Grips (CODA)",
+        "hash": 4194072668,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/dfb39e8b090183ecb63c0c5e9827f302.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1658294130,
+        "name": "Moonfang-X7 Robe",
+        "hash": 1658294130,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/1f07f850f765f132fed2f423ab3bf1b0.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3075372781,
+        "name": "Flowing Cowl (CODA)",
+        "hash": 3075372781,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/fd57a3302fb642bec2e6117ebb8d2c7d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1626503676,
+        "name": "A Swift Verdict",
+        "hash": 1626503676,
+        "type": "weapon",
+        "weaponType": "Sidearm",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/200080943f25aee56427767cc80dc40f.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2623956730,
+        "name": "Moonfang-X7 Mask",
+        "hash": 2623956730,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/9e9ff663ad6358862209bb0654f1f965.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3669616453,
+        "name": "Hoosegow",
+        "hash": 3669616453,
+        "type": "weapon",
+        "weaponType": "Rocket Launcher",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/7237fd2c64473782ef3807593aa9bb5e.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3242850062,
+        "name": "Moonfang-X7 Mark",
+        "hash": 3242850062,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/79d254069b16f9bbe428f9ae25c7cebd.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3155320806,
+        "name": "Flowing Boots (CODA)",
+        "hash": 3155320806,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/ccdbf7e132a6fad6f62fcaa10f075228.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 4121885325,
+        "name": "Moonfang-X7 Rig",
+        "hash": 4121885325,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/126c46bab9197786f36784496dce46d5.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 100226755,
+        "name": "Moonfang-X7 Grips",
+        "hash": 100226755,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/3258b928e78e43d56bc5fc119bac3eb9.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1200824700,
+        "name": "IKELOS_HC_v1.0.2",
+        "hash": 1200824700,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Void",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/eb545cf6330f410dfaa5e65412757e5d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1013434963,
+        "name": "Adjudicator",
+        "hash": 1013434963,
+        "type": "weapon",
+        "weaponType": "Submachine Gun",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/f1a53b2ec55fdce10fe64683e1e8854f.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2022923313,
+        "name": "Channeling Treads (CODA)",
+        "hash": 2022923313,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/41f34d9226db7bb36346ab413a8f0821.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 508076356,
+        "name": "Flowing Vest (CODA)",
+        "hash": 508076356,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/b08432f60ddf40c2f1d7e2532ce03709.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2969415423,
+        "name": "Judgment",
+        "hash": 2969415423,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/3853698380b99524ba6b074d7265f325.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2570653206,
+        "name": "Crushing Plate (CODA)",
+        "hash": 2570653206,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/9d74337d3fa479c9fea124166409d143.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1219883244,
+        "name": "Crushing Greaves (CODA)",
+        "hash": 1219883244,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/cb268e78b8c86d35db0a98e0a5b1e434.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1096206669,
+        "name": "IKELOS_SG_v1.0.2",
+        "hash": 1096206669,
+        "type": "weapon",
+        "weaponType": "Shotgun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/cba43299108f3b5fc2d599b6ec81b3ec.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 435821040,
+        "name": "Darkest Before",
+        "hash": 435821040,
+        "type": "weapon",
+        "weaponType": "Pulse Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/75c2fdd914f5ec532db62b33d8cab92d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 435821041,
+        "name": "Relentless",
+        "hash": 435821041,
+        "type": "weapon",
+        "weaponType": "Pulse Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/1075e2db6a02be3910e7c00a993d7117.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1476654960,
+        "name": "Judgment",
+        "hash": 1476654960,
+        "type": "weapon",
+        "weaponType": "Hand Cannon",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/038d5831a7c95696367a8894093d1c5d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 818644818,
+        "name": "Crushing Guard (CODA)",
+        "hash": 818644818,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/7ba8a031148eca0c9e95df866f8e59cf.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2295111683,
+        "name": "Moonfang-X7 Bond",
+        "hash": 2295111683,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/267cfe38e4242825c133ec83b82b556e.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2481758391,
+        "name": "Darkest Before",
+        "hash": 2481758391,
+        "type": "weapon",
+        "weaponType": "Pulse Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/285f15a2b4b626e21ad806693da727b7.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2602907742,
+        "name": "Channeling Cowl (CODA)",
+        "hash": 2602907742,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/ab3119c33f9f47deba0e12f5ba368f5b.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2742490609,
+        "name": "Death Adder",
+        "hash": 2742490609,
+        "type": "weapon",
+        "weaponType": "Submachine Gun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/242ccfe000ba534300e916a9d08b62f8.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3629968765,
+        "name": "Negative Space",
+        "hash": 3629968765,
+        "type": "weapon",
+        "weaponType": "Sword",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Heavy",
+        "image": "https://bungie.net/common/destiny2_content/icons/b2b250cc421cd561373f89947fac7464.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2234240008,
+        "name": "Moonfang-X7 Helm",
+        "hash": 2234240008,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/a76455a06596f165b50c03f26f106bb8.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 507038823,
+        "name": "The Last Breath",
+        "hash": 507038823,
+        "type": "weapon",
+        "weaponType": "Auto Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": null,
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/b142865fe6d5459a4ccbc32de8b685ac.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3976073347,
+        "name": "Crushing Helm (CODA)",
+        "hash": 3976073347,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/8d84baf9f124cb6bb77c2344ccf1982a.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1717940633,
+        "name": "Cloak Judgment (CODA)",
+        "hash": 1717940633,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/2ae35bbadebcc05d75c5c92206a180b6.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3483591058,
+        "name": "Prosecutor",
+        "hash": 3483591058,
+        "type": "weapon",
+        "weaponType": "Auto Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Primary",
+        "image": "https://bungie.net/common/destiny2_content/icons/7d8c2710ae61764012137e5c68beaf36.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2288398391,
+        "name": "Moonfang-X7 Crown",
+        "hash": 2288398391,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Helmet",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/42c2718f4df772d8b6b30477c205835d.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2487240821,
+        "name": "Moonfang-X7 Strides",
+        "hash": 2487240821,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/bbcf89b61f50399698278e89588c3f2c.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1361912510,
+        "name": "Moonfang-X7 Gloves",
+        "hash": 1361912510,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/7ff7771ef9b75972006d73d2aa86d986.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1581574297,
+        "name": "Moonfang-X7 Gauntlets",
+        "hash": 1581574297,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/000836203e4195622fc8ae0ae9351e4c.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1652467433,
+        "name": "Channeling Robes (CODA)",
+        "hash": 1652467433,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/90c4f4750c01812be9906f4a96f8f26a.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1406846351,
+        "name": "Channeling Wraps (CODA)",
+        "hash": 1406846351,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Gauntlets",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/aa4d96bc0b46130a6c157f06dc0e3371.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 178689419,
+        "name": "Moonfang-X7 Greaves",
+        "hash": 178689419,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/9a4b41f44ef14d3816816a3aa8b88047.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2855157553,
+        "name": "A Sudden Death",
+        "hash": 2855157553,
+        "type": "weapon",
+        "weaponType": "Shotgun",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Arc",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/c41b9fe80c157e104c32cfbfbb90a7b5.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1781294872,
+        "name": "Moonfang-X7 Boots",
+        "hash": 1781294872,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Legs",
+        "classType": "Warlock",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/6f5a13f4c620d11263a834f0eb967372.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1271343896,
+        "name": "Widow's Bite",
+        "hash": 1271343896,
+        "type": "weapon",
+        "weaponType": "Sniper Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/974e392d68dfd9baf47d0cd1c1521eaf.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 3326850591,
+        "name": "The Long Walk",
+        "hash": 3326850591,
+        "type": "weapon",
+        "weaponType": "Sniper Rifle",
+        "armorType": null,
+        "classType": null,
+        "damageType": "Solar",
+        "ammoType": "Special",
+        "image": "https://bungie.net/common/destiny2_content/icons/6e31e137816e45bc572f573392f355b1.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 1571337215,
+        "name": "Moonfang-X7 Chassis",
+        "hash": 1571337215,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "Chest",
+        "classType": "Titan",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/18eb106c9a2b6028dfc547410777716b.jpg",
+        "encounterId": []
+      },
+      {
+        "id": 2701727616,
+        "name": "Moonfang-X7 Cloak",
+        "hash": 2701727616,
+        "type": "armor",
+        "weaponType": null,
+        "armorType": "ClassItem",
+        "classType": "Hunter",
+        "damageType": null,
+        "ammoType": null,
+        "image": "https://bungie.net/common/destiny2_content/icons/4589abfc3117072f9398ca783284a939.jpg",
+        "encounterId": []
+      }
+    ]
+  }
+]
