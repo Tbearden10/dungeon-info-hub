@@ -96,6 +96,9 @@ def extract_item_details(conn, item_hash):
                 "Arc" if 2303181850 in item_data.get("damageTypeHashes", []) else
                 "Solar" if 1847026933 in item_data.get("damageTypeHashes", []) else
                 "Void" if 3454344768 in item_data.get("damageTypeHashes", []) else
+                "Stasis" if 151347233 in item_data.get("damageTypeHashes", []) else
+                "Strand" if 3949783978 in item_data.get("damageTypeHashes", []) else
+                "Kinetic" if 3373582085 in item_data.get("damageTypeHashes", []) else
                 None
             ),
             "ammoType": (
@@ -243,6 +246,8 @@ def extract_dungeon_info(conn, dungeon_hash):
         }
     return {}
 
+import os
+
 def populate_dungeons_data(db_path, dungeons, output_path):
     """
     Populate data for multiple dungeons including loot, triumphs, and general information.
@@ -252,11 +257,29 @@ def populate_dungeons_data(db_path, dungeons, output_path):
         dungeons (list): List of dictionaries containing dungeon_hash, source_hash, and presentation_node_hash.
         output_path (str): Path to save the populated dungeon data JSON file.
     """
+    # Load existing dungeons data if the file exists
+    if os.path.exists(output_path):
+        with open(output_path, 'r', encoding='utf-8') as file:
+            existing_dungeons = json.load(file)
+    else:
+        existing_dungeons = []
+
+    # Create a set of existing dungeon hashes for quick lookup
+    existing_hashes = {dungeon["id"] for dungeon in existing_dungeons}
+
     conn = sqlite3.connect(db_path)
-    all_dungeons = []
+    all_dungeons = existing_dungeons  # Start with existing dungeons
 
     for dungeon in dungeons:
         dungeon_hash = dungeon["dungeon_hash"]
+
+        print(dungeon_hash)
+
+        # Skip adding the dungeon if it already exists
+        if dungeon_hash in existing_hashes:
+            print(f"Skipping dungeon with hash {dungeon_hash} (already exists).")
+            continue
+
         source_hash = dungeon["source_hash"]
         presentation_node_hash = dungeon["presentation_node_hash"]
         title_presentation_node_hash = dungeon.get("title_presentation_node_hash")
@@ -275,6 +298,7 @@ def populate_dungeons_data(db_path, dungeons, output_path):
         # Extract loot
         dungeon_info["loot"] = extract_dungeon_loot(conn, source_hash)
 
+        # Add the new dungeon to the list
         all_dungeons.append(dungeon_info)
 
     conn.close()
@@ -284,6 +308,7 @@ def populate_dungeons_data(db_path, dungeons, output_path):
         json.dump(all_dungeons, output_file, indent=2, ensure_ascii=False)
 
     print(f"All dungeon data exported to {output_path}")
+
 
     
 def extract_title_data(conn, presentation_node_hash):
@@ -339,8 +364,56 @@ def main():
             "dungeon_hash": 1077850348,
             "source_hash": 506073192,
             "presentation_node_hash": 2228154284
+        },
+        {
+            # Grasp of Avarice
+            "dungeon_hash": 4078656646,
+            "source_hash": 675740011,
+            "presentation_node_hash": 1476825620
+        },
+        {
+            # Duality
+            "dungeon_hash": 2823159265,
+            "source_hash": 1282207663,
+            "presentation_node_hash": 4032492628,
+            "title_presentation_node_hash": 854126634
+        },
+        {
+            # Spire of the Watcher
+            "dungeon_hash": 1262462921,
+            "source_hash": 1597738585,
+            "presentation_node_hash": 3846053700,
+            "title_presentation_node_hash": 4183969062
+        },
+        {
+            # Ghosts of the Deep
+            "dungeon_hash": 313828469,
+            "source_hash": 3288974535,
+            "presentation_node_hash": 2279316529,
+            "title_presentation_node_hash": 1705744655
+        },
+        {
+            # Warlords Ruin
+            "dungeon_hash": 2004855007,
+            "source_hash": 613435025,
+            "presentation_node_hash": 3022435577,
+            "title_presentation_node_hash": 1021469803
+        },
+        {
+            # Vespers Host
+            "dungeon_hash": 300092127,
+            "source_hash": 2463956052,
+            "presentation_node_hash": 3254829425,
+            "title_presentation_node_hash": 2723381343  
+        },
+        {
+            # Sundered Doctrine
+            "dungeon_hash": 3834447244,
+            "source_hash": 3095773956,
+            "presentation_node_hash": 2009673092,
+            "title_presentation_node_hash": 2105055614
         }
-    ]
+    ];
 
     output_path = 'dungeons_data.json'  # Path to save the populated dungeon data
 

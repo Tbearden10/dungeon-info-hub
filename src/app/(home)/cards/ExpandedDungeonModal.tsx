@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import EncounterSection from "./encounter/EncounterSection";
 import LootSection from "./loot/LootSection";
 import TriumphSection from "./triumph/TriumphSection";
@@ -14,6 +14,16 @@ export default function ExpandedDungeonModal({
   onClose,
 }: ExpandedDungeonModalProps) {
   const [activeTab, setActiveTab] = useState("loot");
+
+  useEffect(() => {
+    // Disable scrolling when the modal is open
+    document.documentElement.style.overflow = "hidden";
+
+    return () => {
+      // Restore scrolling when the modal is closed
+      document.documentElement.style.overflow = "";
+    };
+  }, []);
 
   return (
     <div className="fixed inset-0 bg-black/70 backdrop-blur-lg flex justify-center items-center z-50 p-6">

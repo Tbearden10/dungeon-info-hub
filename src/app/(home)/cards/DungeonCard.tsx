@@ -40,7 +40,7 @@ export default function DungeonCard({ dungeon }: DungeonCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="relative max-w-md bg-gray-900 text-white rounded-2xl overflow-hidden shadow-lg transition-all hover:shadow-2xl border border-gray-800">
+    <div className="relative max-w-4xl bg-gray-900 text-white rounded-2xl overflow-hidden shadow-lg transition-all hover:shadow-2xl border border-gray-800 flex flex-col h-full w-full">
       {/* Dungeon Image */}
       <div className="relative h-64">
         <img
@@ -56,12 +56,12 @@ export default function DungeonCard({ dungeon }: DungeonCardProps) {
       </div>
 
       {/* Dungeon Info */}
-      <div className="p-5 space-y-4">
-        <p className="text-sm text-gray-400">{dungeon.description}</p>
+      <div className="p-5 flex-grow flex flex-col">
+        <p className="text-md text-gray-400 flex-grow">{dungeon.description}</p>
 
         {/* Requirements */}
         {dungeon.requirements.length > 0 && (
-          <div>
+          <div className="mt-4">
             <h3 className="text-md font-semibold text-yellow-400">Requirements</h3>
             <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
               {dungeon.requirements.map((req, index) => (

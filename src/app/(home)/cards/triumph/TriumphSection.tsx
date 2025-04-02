@@ -15,7 +15,7 @@ interface Triumph {
   icon: string;
   description: string;
   requirements: string[];
-  reward?: Reward;
+  rewards?: Reward[];
 }
 
 interface TriumphSectionProps {
