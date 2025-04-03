@@ -44,7 +44,7 @@ export default function DungeonCard({ dungeon }: DungeonCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="relative max-w-4xl bg-gray-900 text-white rounded-2xl overflow-hidden shadow-lg transition-all hover:shadow-2xl border border-gray-800 flex flex-col h-full w-full">
+    <div className="relative max-w-4xl bg-gray-900 text-white rounded-2xl overflow-hidden shadow-lg transition-all hover:shadow-2xl border border-gray-900 flex flex-col h-full w-full">
       {/* Dungeon Image */}
       <div className="relative h-64">
         <img

@@ -5,7 +5,8 @@ interface Reward {
   id: number;
   name: string;
   hash: number;
-  image: string;
+  type: string;
+  images: string[];
 }
 
 interface Triumph {
@@ -16,6 +17,7 @@ interface Triumph {
   description: string;
   requirements: string[];
   rewards?: Reward[];
+  isTitleRequirement?: boolean;
 }
 
 interface TriumphSectionProps {

@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 interface Reward {
   id: number;
   name: string;
   hash: number;
-  image: string;
+  type: string;
+  images: string[];
 }
 
 interface Triumph {
@@ -15,6 +16,7 @@ interface Triumph {
   description: string;
   requirements: string[];
   rewards?: Reward[];
+  isTitleRequirement?: boolean;
 }
 
 interface TriumphCardProps {
@@ -22,13 +24,26 @@ interface TriumphCardProps {
 }
 
 export default function TriumphCard({ triumph }: TriumphCardProps) {
-  const [hoveredReward, setHoveredReward] = useState<string | null>(null);
-
   return (
-    <div className="relative group rounded-md border border-gray-700 bg-gray-800 p-4 flex flex-row space-x-4">
-      {/* Icon and Rewards Section */}
+    <div className="relative group rounded-md border-gray-700 bg-gray-800 p-4 flex flex-row space-x-4 hover:bg-black/80 transition-opacity transform transition-transform duration-200">
+      {/* Title Requirement Indicator */}
+      {triumph.isTitleRequirement && (
+        <div className="absolute bottom-3 right-0 text-xs text-gray-400 flex items-center space-x-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          fill="currentColor"
+          className="bi bi-star"
+          viewBox="0 0 16 16"
+        >
+          <path d="M8 .25a.75.75 0 0 1 .648.372l1.76 3.574 3.95.575a.75.75 0 0 1 .416 1.276l-2.86 2.786.674 3.938a.75.75 0 0 1-1.088.79L8 12.11l-3.54 1.862a.75.75 0 0 1-1.088-.79l.674-3.938-2.86-2.786a.75.75 0 0 1 .416-1.276l3.95-.575 1.76-3.574A.75.75 0 0 1 8 .25z" />
+        </svg>
+      </div>
+      )}
+
+      {/* Remaining card content */}
       <div className="flex flex-col items-center justify-center space-y-2">
-        {/* Main Icon (only if no rewards exist) */}
         {!triumph.rewards || triumph.rewards.length === 0 ? (
           <img
             src={triumph.icon}
@@ -37,37 +52,49 @@ export default function TriumphCard({ triumph }: TriumphCardProps) {
           />
         ) : null}
 
-        {/* Rewards Section */}
         {triumph.rewards && triumph.rewards.length > 0 && (
           <div className="flex flex-col items-center space-y-2">
             {triumph.rewards.map((reward) => (
-              <div
+              <img
                 key={reward.id}
-                className="relative"
-                onMouseEnter={() => setHoveredReward(reward.name)}
-                onMouseLeave={() => setHoveredReward(null)}
-              >
-                <img
-                  src={reward.image}
-                  alt={reward.name}
-                  className="w-16 h-16 rounded-md object-cover"
-                />
-                {/* Tooltip for Reward Name */}
-                {hoveredReward === reward.name && (
-                  <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded shadow-lg z-50 whitespace-nowrap">
-                    {reward.name}
-                  </div>
-                )}
-              </div>
+                src={reward.images[0]}
+                alt={reward.name}
+                className="w-16 h-16 rounded-md object-cover"
+              />
             ))}
           </div>
         )}
       </div>
 
-      {/* Name and Description */}
       <div className="flex-1 flex flex-col justify-center">
         <h3 className="text-lg font-semibold text-white">{triumph.name}</h3>
         <p className="text-sm text-gray-400">{triumph.description}</p>
+      </div>
+
+      {/* Rewards and interactions */}
+      <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-md p-2">
+        {triumph.rewards && triumph.rewards.length > 0 ? (
+          triumph.rewards.map((reward) => (
+            <div key={reward.id} className="flex flex-col items-center">
+              {reward.type === "emblem" && reward.images[1] ? (
+                <>
+                  <img
+                    src={reward.images[1]}
+                    alt={reward.name}
+                    className="h-16 w-auto rounded-md object-contain border border-gray-600 mb-2"
+                  />
+                  <span className="text-white text-sm text-center">{reward.name}</span>
+                </>
+              ) : null}
+
+              {reward.type !== "emblem" && (
+                <span className="text-white text-sm text-center">{reward.name}</span>
+              )}
+            </div>
+          ))
+        ) : (
+          <span className="text-white text-sm">No rewards available</span>
+        )}
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ export default function Encounter({
   };
 
   return (
-    <div className="bg-gray-800 p-6 rounded-md scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-800 border border-gray-700">
+    <div className="bg-gray-800 p-6 rounded-md scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-800 border-gray-700">
       {/* Header Section */}
       <div className="flex justify-between items-start">
         <div className="flex-1">

@@ -10,6 +10,7 @@
       "Forsaken"
     ],
     "notes": "YOOOOO",
+    "secretChests": [],
     "exoticWeapon": {
       "id": 814876684,
       "name": "Wish-Ender",
@@ -32,7 +33,8 @@
           "image": "https://www.bungie.net/common/destiny2_content/icons/c27c59d81173c75afae0832fbac9151e.png"
         }
       ],
-      "source": "The Shattered Throne dungeon"
+      "catalyst": null,
+      "source": "Huntes' Remnant questline. Complete the Shattered Throne dungeon to unlock the Wish-Ender quest."
     },
     "encounters": [
       {
@@ -180,7 +182,7 @@
         "requirements": [
           "Throne world discovered"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -192,7 +194,7 @@
         "requirements": [
           "Dungeon completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -204,7 +206,7 @@
         "requirements": [
           "Dungeon completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -221,13 +223,16 @@
             "id": 185321778,
             "name": "The Eternal Return",
             "hash": 185321778,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/b7c314b501b6a75d4bfa029d0059b7b8.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/b7c314b501b6a75d4bfa029d0059b7b8.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/40cf702a42a33d6d0050c632808045d3.jpg"
+            ],
             "encounterId": []
           }
         ],
@@ -242,7 +247,7 @@
         "requirements": [
           "Dungeon completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -254,7 +259,7 @@
         "requirements": [
           "Dungeon completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -266,7 +271,7 @@
         "requirements": [
           "Keepers overcome"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -278,7 +283,7 @@
         "requirements": [
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -290,7 +295,7 @@
         "requirements": [
           "Wish-Ender claimed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -304,7 +309,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -318,7 +323,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -332,7 +337,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -346,7 +351,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -360,7 +365,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -374,7 +379,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -388,7 +393,7 @@
           "Maze encounter cleared",
           "Dûl Incaru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -736,6 +741,7 @@
       "Shadowkeep"
     ],
     "notes": "Blasphemer, Apostate, and Heretic all require 'Hymm of Desecration' in order to drop",
+    "secretChests": null,
     "exoticWeapon": {
       "id": 1395261499,
       "name": "Xenophage",
@@ -745,6 +751,7 @@
       "damageType": "Solar",
       "ammoType": "Heavy",
       "image": "https://www.bungie.net/common/destiny2_content/icons/de34570a93281dc201690cfd146e6d24.jpg",
+      "description": "This might sting a little.",
       "exoticperks": [
         {
           "name": "Pyrotoxin Rounds",
@@ -757,6 +764,7 @@
           "image": "https://www.bungie.net/common/destiny2_content/icons/74270d52bec24f1f5f4c987f5f37fce9.png"
         }
       ],
+      "catalyst": null,
       "source": "Acquired from the \"Metamorphosis\" quest in the Pit of Heresy dungeon."
     },
     "encounters": [
@@ -914,13 +922,16 @@
             "id": 298334061,
             "name": "Sanguine Static",
             "hash": 298334061,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/18dc6c427a49dc411027a22b413b8b7c.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/18dc6c427a49dc411027a22b413b8b7c.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/2c1b2c28a8998818b74ff0509d1d7ed7.jpg"
+            ],
             "encounterId": []
           }
         ],
@@ -935,7 +946,7 @@
         "requirements": [
           "\"Eternal Heretic\" completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -947,7 +958,7 @@
         "requirements": [
           "\"Usurper\" completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -964,13 +975,16 @@
             "id": 298334060,
             "name": "Crimson Echoes",
             "hash": 298334060,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/bf9b9247278e8f8186b75fd1577e665f.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/bf9b9247278e8f8186b75fd1577e665f.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/9b7605c2a5f63881e025595c4371ba45.jpg"
+            ],
             "encounterId": []
           }
         ],
@@ -985,7 +999,7 @@
         "requirements": [
           "Quest completed"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -999,7 +1013,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1013,7 +1027,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1027,7 +1041,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1041,7 +1055,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1055,7 +1069,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1069,7 +1083,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1083,7 +1097,7 @@
           "Chamber of Suffering cleared",
           "Cradle of Damnation cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -1541,6 +1555,10 @@
           {
             "url": "ent1.jpg",
             "meta": "Main Area"
+          },
+          {
+            "url": "d1.jpg",
+            "meta": "Pillar Cleansing"
           }
         ],
         "enemy_types": [
@@ -1672,7 +1690,7 @@
         "requirements": [
           "Complete the \"Prophecy\" dungeon"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1695,7 +1713,7 @@
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/39436ee40cec949e3ca043d184e66687.jpg",
+            "images": ["https://bungie.net/common/destiny2_content/icons/39436ee40cec949e3ca043d184e66687.jpg"],
             "encounterId": []
           }
         ],
@@ -1721,7 +1739,7 @@
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/7281ba2f7cc31c9c16107f26efd3f0e1.jpg",
+            "images": ["https://bungie.net/common/destiny2_content/icons/7281ba2f7cc31c9c16107f26efd3f0e1.jpg"],
             "encounterId": []
           }
         ],
@@ -1741,13 +1759,16 @@
             "id": 1138508276,
             "name": "Prophetic Visionary",
             "hash": 1138508276,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/092f537b01b33598f0434ba04894aa72.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/092f537b01b33598f0434ba04894aa72.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/73835952fbfdb9315de347b5abc2d087.jpg"
+            ],
             "encounterId": []
           }
         ],
@@ -1762,7 +1783,7 @@
         "requirements": [
           "Urns gathered"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1776,7 +1797,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1790,7 +1811,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1804,7 +1825,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1818,7 +1839,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1832,7 +1853,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1846,7 +1867,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -1860,7 +1881,7 @@
           "Hexahedron Cleared",
           "Singularity Cleared"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -1877,7 +1898,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/41bf4d7c162e2add253ec609fab3f19b.jpg",
         "encounterId": [
-          1,
+          2,
           6
         ]
       },
@@ -1893,7 +1914,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/c4636d84e0bc2715ba81feb864924dd7.jpg",
         "encounterId": [
-          1,
+          2,
           6
         ]
       },
@@ -1909,7 +1930,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/dfb39e8b090183ecb63c0c5e9827f302.jpg",
         "encounterId": [
-          3
+          4
         ]
       },
       {
@@ -1984,7 +2005,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/ccdbf7e132a6fad6f62fcaa10f075228.jpg",
         "encounterId": [
-          1
+          2
         ]
       },
       {
@@ -2029,7 +2050,7 @@
         "ammoType": "Primary",
         "image": "https://bungie.net/common/destiny2_content/icons/f1a53b2ec55fdce10fe64683e1e8854f.jpg",
         "encounterId": [
-          3
+          4
         ]
       },
       {
@@ -2044,7 +2065,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/41f34d9226db7bb36346ab413a8f0821.jpg",
         "encounterId": [
-          1
+          2
         ]
       },
       {
@@ -2089,7 +2110,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/cb268e78b8c86d35db0a98e0a5b1e434.jpg",
         "encounterId": [
-          1
+          2
         ]
       },
       {
@@ -2119,7 +2140,7 @@
         "ammoType": "Primary",
         "image": "https://bungie.net/common/destiny2_content/icons/1075e2db6a02be3910e7c00a993d7117.jpg",
         "encounterId": [
-          1
+          2
         ]
       },
       {
@@ -2224,7 +2245,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/2ae35bbadebcc05d75c5c92206a180b6.jpg",
         "encounterId": [
-          1,
+          2,
           6
         ]
       },
@@ -2240,7 +2261,7 @@
         "ammoType": "Primary",
         "image": "https://bungie.net/common/destiny2_content/icons/7d8c2710ae61764012137e5c68beaf36.jpg",
         "encounterId": [
-          1
+          2
         ]
       },
       {
@@ -2330,7 +2351,7 @@
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/aa4d96bc0b46130a6c157f06dc0e3371.jpg",
         "encounterId": [
-          3
+          4
         ]
       },
       {
@@ -2360,7 +2381,7 @@
         "ammoType": "Special",
         "image": "https://bungie.net/common/destiny2_content/icons/c41b9fe80c157e104c32cfbfbb90a7b5.jpg",
         "encounterId": [
-          3
+          4
         ]
       },
       {
@@ -2441,18 +2462,49 @@
           "image": "https://www.bungie.net/common/destiny2_content/icons/5e8be152a38c4acd61b2a9e56671cc83.png"
         }
       ],
+      "catalyst": {
+        "name": "More Wolves",
+        "description": "Increases magazine size. Final blows with Wolfpack Rounds spawn a faster, more powerful missile at the target's location.",
+        "image": "https://www.bungie.net/common/destiny2_content/icons/056d763213c2f2ceb68cfb697c8f7917.png"
+      },
       "source": "'And Out Fly the Wolves' Quest"
     },
+    "secretChests": [
+      {
+        "id": 1,
+        "name": "Secret Chest 1",
+        "description": "Located in the first encounter, behind a wall of light.",
+        "images": [
+          {
+            "url": "prophecy1.jpg",
+            "meta": "Main Area"
+          }
+        ],
+        "encounterId": 1
+      },
+      {
+        "id": 2,
+        "name": "Secret Chest 2",
+        "description": "Located in the second encounter, behind a wall of light.",
+        "images": [
+          {
+            "url": "prophecy2.jpg",
+            "meta": "Main Area"
+          }
+        ],
+        "encounterId": 2
+      }
+    ],
     "encounters": [
       {
         "id": 1,
-        "name": "The Loot Cave",
+        "name": "The Loot Cave / Skywatch",
         "description": "Deposit Burdened by Riches into the crystal while managing enemies.",
         "mini_guide": "Defeat enemies to collect engrams that apply the Burdened by Riches debuff. Gather as many as possible before heading into the cave to stand near the crystal, which will consume the stacks. Keep an eye on the 30-second timer, as failing to deposit in time results in death. Repeat the process until 'The remnants have quieted' appears, then proceed through the crystal caverns to the next encounter",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "The Loot Cave"
+            "url": "sk1.jpg",
+            "meta": "Skywatch"
           }
         ],
         "enemy_types": ["Fallen", "Hibe"],
@@ -2466,8 +2518,8 @@
         "mini_guide": "Traverse through the caves, making your way past enemies, hidden doors, and traps. Enter the left door, avoid the pressure plate trap, and pull the lever. Head through the newly opened tunnel, carefully crossing the pit by using the correct platforms and side paths. Solve the lever puzzle to open doors and progress through the abyss, eventually reaching a circular chamber. Here, use the Scorch Cannon to activate generators in order: 03, 04, 01, and 02. Defeat the Scorch Vandal, unlock the final door, and make your way to the first boss encounter.",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "The Rusted Gangplank"
+            "url": "rg1.jpg",
+            "meta": "The Rusted Gangplank"
           }
         ],
         "enemy_types": ["Fallen", "Hive"],
@@ -2481,8 +2533,8 @@
         "mini_guide": "Defeat Vandals to obtain Scorch Cannons, then use them to open doors and spawn enemies. Eliminate enemies to collect Burdened by Riches and deposit them at the crystal to remove Phry'zhia's shield. Once the shield is down, damage the boss until the phase ends. If necessary, repeat the process. Warlocks can use Well of Radiance for extra damage, and collecting 10 Burdened by Riches instantly restores your Super, helping maximize DPS.",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "Phry'zhia the Insatiable"
+            "url": "og1.jpg",
+            "meta": "Phry'zhia the Insatiable"
           }
         ],
         "enemy_types": ["Fallen", "Hive"],
@@ -2496,8 +2548,12 @@
         "mini_guide": "Speed through the course, hitting buttons to prolong the mine timers while avoiding obstacles. Defuse Mines A, B, C, and D in sequence by reaching them before the timer expires. A quick-summon Sparrow and cooldown reduction mod can help if you crash. Pay attention to button locations, such as under shipwrecks, near debris, and before gravity cannons, to maximize time. Once the final mine is defused, proceed to the next area.",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "Sparrow Racing"
+            "url": "shr1.jpg",
+            "meta": "Sparrow Racing"
+          },
+          {
+            "url": "skel1.jpg",
+            "meta": "Sparrow Racing"
           }
         ],
         "enemy_types": ["Fallen", "Hive"],  
@@ -2511,8 +2567,8 @@
         "mini_guide": "Find a Vandal, take its Scorch Cannon, and use gravity cannons to navigate platforms. Defeat enemies, collect Burdened by Riches, and deposit it at the crystal to remove a Servitor’s shield. Eliminate the Servitor, then push its shell onto a gravity cannon aimed at the central structure. Fire a Scorch Cannon shot to launch the shell, destroying a node. Repeat this process until all four nodes are gone, then use the gravity cannon to reach the reward area.",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "Sunken Lair"
+            "url": "sh2.jpg",
+            "meta": "Sunken Lair"
           }
         ],
         "enemy_types": ["Fallen", "Hive"],
@@ -2526,8 +2582,8 @@
         "mini_guide": "Defeat the Vandal to obtain a Scorch Cannon, then fire it at one of the generators to release Burdened by Riches engrams. Collect and deposit at least 60 engrams at the central crystal to remove Avarokk’s shield. Once the message appears, deal as much damage as possible during the 30-second DPS phase. When Avarokk becomes immune, repeat the process until the boss is defeated.",
         "images": [
           {
-            "image": "https://bungie.net/common/destiny2_content/icons/0c4f1a3b5d8e4b7f8a6c9d0e1f2b3c4d.jpg",
-            "description": "Avarokk the Covetous"
+            "url": "boss1.jpg",
+            "meta": "Avarokk the Covetous"
           }
         ],
         "enemy_types": ["Fallen"],
@@ -2551,13 +2607,16 @@
             "id": 3800278197,
             "name": "Absolutely Cursed",
             "hash": 3800278197,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/4b4f1ab72cf309112748faa6940e8a41.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/4b4f1ab72cf309112748faa6940e8a41.jpg",
+              "https://bungie.net/common/destiny2_content/icons/b531d829e55b6f13555e8cae172dc0b3.jpg"
+            ],
             "encounterId": []
           }
       ],
@@ -2583,7 +2642,7 @@
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/7d5c320a084b4fecc45b480459fa1f93.jpg",
+            "images": ["https://bungie.net/common/destiny2_content/icons/7d5c320a084b4fecc45b480459fa1f93.jpg"],
             "encounterId": []
           }
         ],
@@ -2598,7 +2657,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2615,13 +2674,16 @@
             "id": 3800278198,
             "name": "Piratical Ambitions",
             "hash": 3800278198,
-            "type": null,
+            "type": "emblem",
             "weaponType": null,
             "armorType": null,
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/5f3614bd64c0668febb1ff1ae3d1632b.jpg",
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/5f3614bd64c0668febb1ff1ae3d1632b.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/c612ec23a7f3b57042cb988788ef37a8.jpg"
+            ],
             "encounterId": []
           }
         ],
@@ -2647,7 +2709,7 @@
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/04dbe32dec6d27d9b74dcfb568db53a0.jpg",
+            "images": ["https://bungie.net/common/destiny2_content/icons/04dbe32dec6d27d9b74dcfb568db53a0.jpg"],
             "encounterId": []
           }
         ],
@@ -2684,7 +2746,7 @@
             "classType": null,
             "damageType": null,
             "ammoType": null,
-            "image": "https://bungie.net/common/destiny2_content/icons/cb8dae90f0b8207583fa61a0815472b3.jpg",
+            "images": ["https://bungie.net/common/destiny2_content/icons/cb8dae90f0b8207583fa61a0815472b3.jpg"],
             "encounterId": []
           }
         ],
@@ -2699,7 +2761,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2713,7 +2775,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2727,7 +2789,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2741,7 +2803,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2755,7 +2817,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2769,7 +2831,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2783,7 +2845,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -2797,7 +2859,7 @@
           "Caves cleared",
           "Captain defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -3058,11 +3120,186 @@
     "description": "Dive into the depths of the exiled emperor's mind in search of dark secrets.",
     "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_duality.jpg",
     "location": "Derelict Leviathan, The Moon",
-    "requirements": ["The Witch Queen Dungeon Key"],
-    "exoticWeapon": {},
-    "encounters": [],
+    "requirements": ["Witch Queen Dungeon Key"],
+    "notes": "YOOOOO",
+    "exoticWeapon": {
+      "id": 3664831848,
+      "name": "Heartshadow",
+      "hash": 3664831848,
+      "type": "weapon",
+      "weaponType": "Sword",
+      "damageType": "Void",
+      "ammoType": "Heavy",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/94c6933727fa885fb2002a8c7aee5e42.jpg",
+      "description": "Suffering to the conquered.",
+      "exoticperks": [
+        {
+          "name": "Exhumation",
+          "description": "Heavy attacks made with full Sword energy turn you invisible and fire exploding Void projectiles.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/717e56f15a73fa2c023b2f71a341e539.png"
+        },
+        {
+          "name": "Shot in the Dark",
+          "description": "Remaining invisible grants this weapon increased damage for a brief duration. Hitting a target with this weapon's projectiles while Shot in the Dark is active weakens them.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/bf7ca39c4164277fab08cba5d1e78827.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
+    "encounters": [
+      {
+        "id": 1,
+        "name": "The Mindscape",
+        "description": "Enter Calus's mind, navigate platforming challenges, and manage bell mechanics to progress through the dungeon.",
+        "mini_guide": "After speaking with Eris in the Tribute Hall, descend through the opening to start the dungeon. As you progress, you'll encounter a bell in the distance—shooting this bell transports you to the Nightmare realm. While in this realm, make sure you're standing within the circle around the bell to return to the real world safely, as shooting it outside of the circle will kill those not within it. Continue through chambers, engaging in platforming challenges and eliminating enemies to avoid being flung into pits. Eventually, you'll reach a lavish chamber where defeating all enemies causes a door to open, leading to the next phase.",
+        "images": [
+          {
+            "url": "mindscape.jpg",
+            "meta": "The Nightmare of Gahlran"
+          },
+          {
+            "url": "m2.jpg",
+            "meta": "The Mindscape"
+          },
+          {
+            "url": "m3.jpg",
+            "meta": "The Mindscape"
+          }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": "The Nightmare of Gahlran",
+        "boss_health": 5497824
+      },
+      {
+        "id": 2,
+        "name": "Nightmare of Gahlran, Sorrow Bearer",
+        "description": "Defeat Gahlran by managing bell mechanics, collecting standards, and clearing Visions of Gahlran in both realms.",
+        "mini_guide": "In the Nightmare of Gahlran encounter, use snipers for shooting bells at range, fusion rifles to kill visions, and swords like Lament or Falling Guillotine for close combat. When entering the nightmare realm, two bellkeepers will appear near the unsung bell. Players need to collect standards from the nightmare realm by killing Standard Bearers in the symbol rooms, then deposit them in the corresponding rooms in the normal realm. After depositing, kill Visions of Gahlran in both rooms. Once the visions are defeated, damage Gahlran, but be sure to retreat to the bell at the end of the damage phase to avoid death.",
+        "images": [
+          {
+            "url": "n1.jpg",
+            "meta": "The Nightmare of Gahlran"
+          },
+          {
+            "url": "n2.png",
+            "meta": "The Nightmare of Gahlran"
+          }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": "The Nightmare of Gahlran",
+        "boss_health": 5497824
+      },
+      {
+        "id": 3,
+        "name": "The Crypt",
+        "description": "Navigate platforming puzzles and manipulate statues in the crypt to unlock the path forward.",
+        "mini_guide": "After defeating Gahlran, proceed down the corridor until you reach a spacious chamber. Leap along the left path to flip the switch on a pillar, which activates the coffins and turns them into platforms. Cross the room, flip another switch to create a new set of platforms, and continue upward. You'll face a leap of faith; use a jumping exotic or sword if necessary. When you reach the bell and four gladiator statues, rotate them counterclockwise until they all face the bell. Enter the shadow world using the bell and interact with the switches on the back of the statues to make them functional. After completing the puzzle, return to the normal world to unlock the vault entrance.",
+        "images": [
+          {
+            "url": "c1.jpg",
+            "meta": "The Descent"
+          },
+          {
+            "url": "c2.jpg",
+            "meta": "The Crypt"
+          }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": null,
+        "boss_health": null
+      },
+      {
+        "id": 4,
+        "name": "The Vault",
+        "description": "Kill Nightmares by collecting and depositing Standard Essences while managing bellkeepers and the Nightmare Timer.",
+        "mini_guide": "In the Vault, the goal is to kill three Nightmares by depositing six Standard Essences. When entering the nightmare realm, two players will find a hidden staircase leading to a room filled with enemies, including Phalanxes and a Colossus. Once all enemies are defeated, a Standard Bearer will appear—kill them to collect the standard and extend the Nightmare Timer. After both players have standards, return to the bell, where the bellkeeper killer eliminates bellkeepers in the Nightmare realm. After depositing both standards in the main area, the miniboss becomes vulnerable. Repeat this process until all three Nightmares are killed",
+        "images": [
+          {
+            "url": "v1.jpg",
+            "meta": "The Nightmare of Calus"
+          },
+          {
+            "url": "v2.jpg",
+            "meta": "The Nightmare of Calus"
+          },
+          
+          {
+            "url": "v3.jpg",
+            "meta": "The Nightmare of Calus"
+          },
+          {
+            "url": "v4.jpg",
+            "meta": "The Nightmare of Calus"
+          }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": "The Nightmare of Calus",
+        "boss_health": 5497824
+      },
+      {
+        "id": 5,
+        "name": "The Depths",
+        "description": "Activate bells, navigate platforming challenges, and cross a large abyss to reach the Dark Shrine",
+        "mini_guide": "In the Depths, shoot through the bars to activate the Bell of Conquest located on the back left. To reach the bell, jump across the platforms and climb through the top wall hole, then ascend the tube to return to reality. Afterward, find another bell across the street and navigate the gap in the nightmare realm to reach it. Work your way around the rafters and descend the chute to return to the normal world. To access the Dark Shrine, cross a large abyss by turning right and following the wall to reach the red doorway",
+        "images": [
+          {
+            "url": "d2.jpg",
+            "meta": "The Nightmare of Calus"
+          },
+          {
+            "url": "d3.jpg",
+            "meta": "The Nightmare of Calus"
+          }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": "The Nightmare of Calus",
+        "boss_health": 5497824
+      },
+      {
+        "id": 6,
+        "name": "Nightmare of Caiatl, Princess-Imperial",
+        "description": "Collect and deposit Standard Essences, stun Caiatl with bells, and maximize damage during the Waking Resonance buff to defeat her.",
+        "mini_guide": "In the Nightmare of Caiatl encounter, the objective is to collect four Standard Essences by defeating the correct Standard Bearers in the nightmare realm and then deposit them in the normal realm. Once all four standards are placed, the Bell of Conquest is primed, and the damage phase begins. During the damage phase, bellkeepers spawn at the bells; players must kill them to unlock the bell, then shoot the bell to stun Caiatl and reduce her damage resistance. After stunning her three times at different bells, deal damage while the Waking Resonance buff is active. If any mistakes are made, such as ringing a bell prematurely or not intervening in time, the team will need to repeat the encounter.",
+        "images": [
+          {
+            "url": "ni1.jpg",
+            "meta": "The Nightmare of Calus"
+          },
+            
+            {
+              "url": "ni2.jpg",
+              "meta": "The Nightmare of Calus"
+            },
+            {
+              "url": "ni3.jpg",
+              "meta": "The Nightmare of Calus"
+            },
+            {
+              "url": "ni4.jpg",
+              "meta": "The Nightmare of Calus"
+            },
+            {
+              "url": "ni5.jpg",
+              "meta": "The Nightmare of Calus"
+            },
+            {
+              "url": "ni6.jpg",
+              "meta": "The Nightmare of Calus"
+            },
+            {
+              "url": "nmap.png",
+              "meta": "The Nightmare of Calus"
+            }
+        ],
+        "enemy_types": ["Cabal"],
+        "boss": "The Nightmare of Calus",
+        "boss_health": 5497824
+      }
+    ],
     "title": {
-      "name": "Duality",
+      "name": "Discerptor",
       "icon": "https://bungie.net/common/destiny2_content/icons/a790fbe7847f14d2db958e3e76615179.png",
       "triumphHashes": [
         2105786548,
@@ -3088,19 +3325,24 @@
         "requirements": [
           ""
         ],
-        "reward": {
-          "id": 383734239,
-          "name": "The Deepest Truth",
-          "hash": 383734239,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/7ca933ecdf6f9f08c3b6711190cce7a8.jpg",
-          "encounterId": []
-        },
+        "rewards": [
+          {
+            "id": 383734239,
+            "name": "The Deepest Truth",
+            "hash": 383734239,
+            "type": "emblem",
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/7ca933ecdf6f9f08c3b6711190cce7a8.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/500702b0e0791818281f9f2ea2932ca6.jpg"
+            ],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": true
       },
       {
@@ -3112,19 +3354,21 @@
         "requirements": [
           ""
         ],
-        "reward": {
-          "id": 1950177353,
-          "name": "Increases initial chance for Heartshadow to drop.",
-          "hash": 1950177353,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png",
-          "encounterId": []
-        },
+        "rewards": [
+            {
+            "id": 1950177353,
+            "name": "Increases initial chance for Heartshadow to drop.",
+            "hash": 1950177353,
+            "type": null,
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": ["https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png"],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": false
       },
       {
@@ -3136,19 +3380,21 @@
         "requirements": [
           ""
         ],
-        "reward": {
-          "id": 1950177353,
-          "name": "Increases initial chance for Heartshadow to drop.",
-          "hash": 1950177353,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png",
-          "encounterId": []
-        },
+        "rewards": [
+            {
+            "id": 1950177353,
+            "name": "Increases initial chance for Heartshadow to drop.",
+            "hash": 1950177353,
+            "type": null,
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": ["https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png"],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": true
       },
       {
@@ -3160,19 +3406,39 @@
         "requirements": [
           ""
         ],
-        "reward": {
-          "id": 1950177353,
-          "name": "Increases initial chance for Heartshadow to drop.",
-          "hash": 1950177353,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png",
-          "encounterId": []
-        },
+        "rewards": [
+          {
+            "id": 383734232,
+            "name": "Untouched by Opulence",
+            "hash": 383734232,
+            "type": "emblem",
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": [
+              "https://www.bungie.net/common/destiny2_content/icons/de052aec1306777be98e7a8050bcbfb4.jpg",
+              "https://www.bungie.net/common/destiny2_content/icons/e557385d8d93befb9f91c2d0d97b224c.jpg"
+            ],
+            "encounterId": []
+          },
+          {
+            "id": 1950177353,
+            "name": "Increases initial chance for Heartshadow to drop.",
+            "hash": 1950177353,
+            "type": null,
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": [
+              "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png"
+            ],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": false
       },
       {
@@ -3186,7 +3452,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3200,7 +3466,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3214,7 +3480,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3228,7 +3494,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3242,7 +3508,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -3256,7 +3522,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -3270,7 +3536,7 @@
           "Vault unlocked",
           "Calus's greatest shame defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3282,19 +3548,21 @@
         "requirements": [
           ""
         ],
-        "reward": {
-          "id": 1950177353,
-          "name": "Increases initial chance for Heartshadow to drop.",
-          "hash": 1950177353,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png",
-          "encounterId": []
-        },
+        "rewards": [
+          {
+            "id": 1950177353,
+            "name": "Increases initial chance for Heartshadow to drop.",
+            "hash": 1950177353,
+            "type": null,
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": ["https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png"],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": true
       },
       {
@@ -3317,19 +3585,21 @@
           "Repressed memory collected",
           "Repressed memory collected"
         ],
-        "reward": {
-          "id": 1950177353,
-          "name": "Increases initial chance for Heartshadow to drop.",
-          "hash": 1950177353,
-          "type": null,
-          "weaponType": null,
-          "armorType": null,
-          "classType": null,
-          "damageType": null,
-          "ammoType": null,
-          "image": "https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png",
-          "encounterId": []
-        },
+        "rewards": [
+          {
+            "id": 1950177353,
+            "name": "Increases initial chance for Heartshadow to drop.",
+            "hash": 1950177353,
+            "type": null,
+            "weaponType": null,
+            "armorType": null,
+            "classType": null,
+            "damageType": null,
+            "ammoType": null,
+            "images": ["https://bungie.net/common/destiny2_content/icons/6c4935a0247406e7b412ed5acd47b01d.png"],
+            "encounterId": []
+          }
+        ],
         "isTitleRequirement": true
       },
       {
@@ -3341,7 +3611,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       }
     ],
@@ -3357,7 +3627,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/470db91034af58352581823c6f387c33.jpg",
-        "encounterId": []
+        "encounterId": [2, 6]
       },
       {
         "id": 2263839058,
@@ -3370,7 +3640,7 @@
         "damageType": "Void",
         "ammoType": "Special",
         "image": "https://bungie.net/common/destiny2_content/icons/309be60672ad05a6feaf055fd6e9e6ab.jpg",
-        "encounterId": []
+        "encounterId": [2]
       },
       {
         "id": 3070295330,
@@ -3383,7 +3653,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/d1d88c2771f6329ade75f73bce102fc7.jpg",
-        "encounterId": []
+        "encounterId": [4]
       },
       {
         "id": 737550160,
@@ -3396,7 +3666,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/43ded926d41e0e20be948c5de4a9b77f.jpg",
-        "encounterId": []
+        "encounterId": [4]
       },
       {
         "id": 1780464822,
@@ -3409,7 +3679,7 @@
         "damageType": "Stasis",
         "ammoType": "Primary",
         "image": "https://bungie.net/common/destiny2_content/icons/4d74a4464b7712b94d7afadc9b740eb3.jpg",
-        "encounterId": []
+        "encounterId": [6]
       },
       {
         "id": 3742442925,
@@ -3422,7 +3692,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/9be1c60d1aaa6689f64e327c7163f858.jpg",
-        "encounterId": []
+        "encounterId": [4]
       },
       {
         "id": 2194955522,
@@ -3435,7 +3705,7 @@
         "damageType": "Solar",
         "ammoType": "Heavy",
         "image": "https://bungie.net/common/destiny2_content/icons/2f976faa5043ea86212e079c84ff6683.jpg",
-        "encounterId": []
+        "encounterId": [6]
       },
       {
         "id": 2351264197,
@@ -3448,7 +3718,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/5125df7348372048ad53f813a140e323.jpg",
-        "encounterId": []
+        "encounterId": [2, 6]
       },
       {
         "id": 3570529565,
@@ -3461,7 +3731,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/018014859a1ddf8838f931785669dd65.jpg",
-        "encounterId": []
+        "encounterId": [4, 6]
       },
       {
         "id": 630469185,
@@ -3474,7 +3744,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/cf6ee97251ea760bed9e63b04fb45db8.jpg",
-        "encounterId": []
+        "encounterId": [2]
       },
       {
         "id": 2616310259,
@@ -3487,7 +3757,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/ee0bd4b71c61589fec09c519ab7f1868.jpg",
-        "encounterId": []
+        "encounterId": [2, 4, 6]
       },
       {
         "id": 3652506829,
@@ -3500,7 +3770,7 @@
         "damageType": "Arc",
         "ammoType": "Heavy",
         "image": "https://bungie.net/common/destiny2_content/icons/0b3c602c10a80fcc5c688f6298e53fc6.jpg",
-        "encounterId": []
+        "encounterId": [4]
       },
       {
         "id": 2610749098,
@@ -3513,7 +3783,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/08487ead23df300f8123ded8f7eeb00e.jpg",
-        "encounterId": []
+        "encounterId": [2]
       },
       {
         "id": 3664831848,
@@ -3526,7 +3796,7 @@
         "damageType": "Void",
         "ammoType": "Heavy",
         "image": "https://bungie.net/common/destiny2_content/icons/94c6933727fa885fb2002a8c7aee5e42.jpg",
-        "encounterId": []
+        "encounterId": [6]
       },
       {
         "id": 1468388696,
@@ -3539,7 +3809,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/e15bd704f6871b90cb2df7cbc0d662ef.jpg",
-        "encounterId": []
+        "encounterId": [2, 4, 6]
       },
       {
         "id": 2026087437,
@@ -3552,7 +3822,7 @@
         "damageType": "Stasis",
         "ammoType": "Special",
         "image": "https://bungie.net/common/destiny2_content/icons/c61e5c1014b290cb63026938ed4982fc.jpg",
-        "encounterId": []
+        "encounterId": [2]
       },
       {
         "id": 3798520466,
@@ -3565,7 +3835,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/b260b1b0071ad340eb21808a327ee739.jpg",
-        "encounterId": []
+        "encounterId": [2, 6]
       },
       {
         "id": 4289018379,
@@ -3578,7 +3848,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/6ee7d7e68daadda53a87e05a624ef44f.jpg",
-        "encounterId": []
+        "encounterId": [4, 6]
       },
       {
         "id": 3000847393,
@@ -3591,7 +3861,7 @@
         "damageType": "Void",
         "ammoType": "Primary",
         "image": "https://bungie.net/common/destiny2_content/icons/debbcf7175b5cc3e25d80f01f13a9e8d.jpg",
-        "encounterId": []
+        "encounterId": [4]
       },
       {
         "id": 322599957,
@@ -3604,7 +3874,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/2cca2691f2c00eef1ef55bb5463e2aed.jpg",
-        "encounterId": []
+        "encounterId": [2, 4, 6]
       },
       {
         "id": 3262689948,
@@ -3617,7 +3887,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/59713a96f590ddd582a7defb6bf63532.jpg",
-        "encounterId": []
+        "encounterId": [2]
       },
       {
         "id": 561897072,
@@ -3630,7 +3900,7 @@
         "damageType": null,
         "ammoType": null,
         "image": "https://bungie.net/common/destiny2_content/icons/a762edc85a391c03602de255951fb2eb.jpg",
-        "encounterId": []
+        "encounterId": [4, 6]
       }
     ]
   },
@@ -3641,11 +3911,37 @@
     "description": "Machinations run wild in this dust-ridden ruin. Bring them to heel.",
     "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_spire_of_the_watcher.jpg",
     "location": "Mars",
-    "requirements": [],
-    "exoticWeapon": {},
+    "requirements": ["Witch Queen Dungeon Key"],
+    "exoticWeapon": {
+      "id": 4174431791,
+      "name": "Hierarchy of Needs",
+      "hash": 4174431791,
+      "type": "weapon",
+      "weaponType": "Combat Bow",
+      "damageType": "Solar",
+      "ammoType": "Primary",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/8c32410000243e6024130f755b23fbe6.jpg",
+      "description": "'I have peered through the eye of Chronos to divine humanity's path into the future.' —Soteria, the Augurmind",
+      "exoticperks": [
+        {
+          "name": "Guidance Ring",
+          "description": "Precision hits and final blows build Guidance Ring energy. Opposing Guardians grant additional energy. At full charge, hip firing creates a Guidance Ring.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/59743510eecdd1b4727200eac9fbece3.png"
+        },
+        {
+          "name": "Apollonic Tangent",
+          "description": "Arrows fired through a Guidance Ring release seeking projectiles, which do more damage based on distance traveled.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/09072313039642fc34919b64c2afc153.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
     "encounters": [],
+    "notes": "Bring a trace rifle!",
     "title": {
-      "name": "Spire of the Watcher",
+      "name": "WANTED",
       "icon": "https://bungie.net/common/destiny2_content/icons/40874c5d1b92e82321e226d1681eb57e.png",
       "triumphHashes": [
         1584772332,
@@ -3670,7 +3966,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2026109716,
           "name": "Pillory Partition",
           "hash": 2026109716,
@@ -3694,7 +3990,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3224646387,
           "name": "Increases initial chance for Hierarchy of Needs to drop.",
           "hash": 3224646387,
@@ -3718,7 +4014,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3224646387,
           "name": "Increases initial chance for Hierarchy of Needs to drop.",
           "hash": 3224646387,
@@ -3742,7 +4038,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3224646387,
           "name": "Increases initial chance for Hierarchy of Needs to drop.",
           "hash": 3224646387,
@@ -3768,7 +4064,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3782,7 +4078,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3796,7 +4092,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3810,7 +4106,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3824,7 +4120,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -3838,7 +4134,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -3852,7 +4148,7 @@
           "Akelous, the Siren's Current defeated",
           "Persys, Primordial Ruin defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -3864,7 +4160,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3224646387,
           "name": "Increases initial chance for Hierarchy of Needs to drop.",
           "hash": 3224646387,
@@ -3893,7 +4189,7 @@
           "Devilish recordings collected",
           "Devilish recordings collected"
         ],
-        "reward": {
+        "rewards": {
           "id": 3224646387,
           "name": "Increases initial chance for Hierarchy of Needs to drop.",
           "hash": 3224646387,
@@ -3917,7 +4213,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -4218,7 +4514,33 @@
     "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_ghosts_of_the_deep.jpg",
     "location": "Titan",
     "requirements": [],
-    "exoticWeapon": {},
+    "notes": "blub blub blub I am under the water",
+    "exoticWeapon": {
+      "id": 1441805468,
+      "name": "The Navigator",
+      "hash": 1441805468,
+      "type": "weapon",
+      "weaponType": "Trace Rifle",
+      "damageType": "Strand",
+      "ammoType": "Special",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/4984c634a7d2eca3baafc000a121263d.jpg",
+      "description": "I dive to understand.",
+      "exoticperks": [
+        {
+          "name": "Protective Weave",
+          "description": "Firing this weapon at an ally grants Woven Mail to both the user and the target.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/dfd12f2a52c6af2e816eee9f74155910.png"
+        },
+        {
+          "name": "Weft Cutter",
+          "description": "Dealing sustained damage severs the target.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/353e4e6198aec5cc5cc299f17c2497a3.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
     "encounters": [],
     "title": {
       "name": "Ghosts of the Deep",
@@ -4246,7 +4568,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2069797999,
           "name": "Regicide",
           "hash": 2069797999,
@@ -4270,7 +4592,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2126433420,
           "name": "Increases The Navigator drop rate.",
           "hash": 2126433420,
@@ -4294,7 +4616,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2126433420,
           "name": "Increases The Navigator drop rate.",
           "hash": 2126433420,
@@ -4318,7 +4640,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2126433420,
           "name": "Increases The Navigator drop rate.",
           "hash": 2126433420,
@@ -4344,7 +4666,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4358,7 +4680,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4372,7 +4694,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4386,7 +4708,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4400,7 +4722,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -4414,7 +4736,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -4428,7 +4750,7 @@
           "Ecthar, the Shield of Savathûn, defeated",
           "Šimmumah ur-Nokru defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4440,7 +4762,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2126433420,
           "name": "Increases The Navigator drop rate.",
           "hash": 2126433420,
@@ -4475,7 +4797,7 @@
           "Memory collected",
           "Memory collected"
         ],
-        "reward": {
+        "rewards": {
           "id": 2126433420,
           "name": "Increases The Navigator drop rate.",
           "hash": 2126433420,
@@ -4499,7 +4821,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -4787,7 +5109,33 @@
     "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_ridgeline.jpg",
     "location": "European Dead Zone",
     "requirements": [],
-    "exoticWeapon": {},
+    "notes": "lol",
+    "exoticWeapon": {
+      "id": 3664831848,
+      "name": "Heartshadow",
+      "hash": 3664831848,
+      "type": "weapon",
+      "weaponType": "Sword",
+      "damageType": "Void",
+      "ammoType": "Heavy",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/94c6933727fa885fb2002a8c7aee5e42.jpg",
+      "description": "I dive to understand.",
+      "exoticperks": [
+        {
+          "name": "Exhumation",
+          "description": "Heavy attacks made with full Sword energy turn you invisible and fire exploding Void projectiles.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/717e56f15a73fa2c023b2f71a341e539.png"
+        },
+        {
+          "name": "Shot in the Dark",
+          "description": "Remaining invisible grants this weapon increased damage for a brief duration. Hitting a target with this weapon's projectiles while Shot in the Dark is active weakens them.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/bf7ca39c4164277fab08cba5d1e78827.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
     "encounters": [],
     "title": {
       "name": "Warlord's Ruin",
@@ -4817,7 +5165,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": {
+        "rewards": {
           "id": 1465090517,
           "name": "Shattered Fortress",
           "hash": 1465090517,
@@ -4841,7 +5189,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 860071581,
           "name": "Increases initial Buried Bloodline drop rate.",
           "hash": 860071581,
@@ -4865,7 +5213,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 860071581,
           "name": "Increases initial Buried Bloodline drop rate.",
           "hash": 860071581,
@@ -4889,7 +5237,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 860071581,
           "name": "Increases initial Buried Bloodline drop rate.",
           "hash": 860071581,
@@ -4915,7 +5263,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4929,7 +5277,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4943,7 +5291,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -4957,7 +5305,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4971,7 +5319,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -4985,7 +5333,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -4999,7 +5347,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5013,7 +5361,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": {
+        "rewards": {
           "id": 860071581,
           "name": "Increases initial Buried Bloodline drop rate.",
           "hash": 860071581,
@@ -5046,7 +5394,7 @@
           "Bones found",
           "Bones found"
         ],
-        "reward": {
+        "rewards": {
           "id": 860071581,
           "name": "Increases initial Buried Bloodline drop rate.",
           "hash": 860071581,
@@ -5070,7 +5418,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -5084,7 +5432,7 @@
           "Brave the tempest and survive",
           "Put Hefnd's vengeance to rest"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
@@ -5359,7 +5707,33 @@
     "image": "https://bungie.net/img/destiny_content/pgcr/vespers_host.jpg",
     "location": "Europa",
     "requirements": [],
-    "exoticWeapon": {},
+    "notes": "lol",
+    "exoticWeapon": {
+      "id": 3664831848,
+      "name": "Heartshadow",
+      "hash": 3664831848,
+      "type": "weapon",
+      "weaponType": "Sword",
+      "damageType": "Void",
+      "ammoType": "Heavy",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/94c6933727fa885fb2002a8c7aee5e42.jpg",
+      "description": "I dive to understand.",
+      "exoticperks": [
+        {
+          "name": "Exhumation",
+          "description": "Heavy attacks made with full Sword energy turn you invisible and fire exploding Void projectiles.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/717e56f15a73fa2c023b2f71a341e539.png"
+        },
+        {
+          "name": "Shot in the Dark",
+          "description": "Remaining invisible grants this weapon increased damage for a brief duration. Hitting a target with this weapon's projectiles while Shot in the Dark is active weakens them.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/bf7ca39c4164277fab08cba5d1e78827.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
     "encounters": [],
     "title": {
       "name": "Vesper's Host",
@@ -5389,7 +5763,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 3508476927,
           "name": "Anomalous",
           "hash": 3508476927,
@@ -5415,7 +5789,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 788073488,
           "name": "Vespertine",
           "hash": 788073488,
@@ -5439,7 +5813,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2156849113,
           "name": "Increases initial Ice Breaker drop rate.",
           "hash": 2156849113,
@@ -5463,7 +5837,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2156849113,
           "name": "Increases initial Ice Breaker drop rate.",
           "hash": 2156849113,
@@ -5487,7 +5861,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 2156849113,
           "name": "Increases initial Ice Breaker drop rate.",
           "hash": 2156849113,
@@ -5513,7 +5887,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5527,7 +5901,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5541,7 +5915,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -5555,7 +5929,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5569,7 +5943,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -5583,7 +5957,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5597,7 +5971,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -5611,7 +5985,7 @@
           "Raneiks Unified defeated",
           "Corrupted Puppeteer defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 2156849113,
           "name": "Increases initial Ice Breaker drop rate.",
           "hash": 2156849113,
@@ -5640,7 +6014,7 @@
           "Collectibles found",
           "Collectibles found"
         ],
-        "reward": {
+        "rewards": {
           "id": 2156849113,
           "name": "Increases initial Ice Breaker drop rate.",
           "hash": 2156849113,
@@ -5664,7 +6038,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -5676,7 +6050,7 @@
         "requirements": [
           "Corrupted Puppeteer defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -5690,7 +6064,7 @@
           "",
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 4157804630,
           "name": "Sub-Director Level Access Token",
           "hash": 4157804630,
@@ -5714,7 +6088,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 4157804629,
           "name": "BrayTech Storage Module: Full Access",
           "hash": 4157804629,
@@ -6001,7 +6375,33 @@
     "image": "https://bungie.net/img/destiny_content/pgcr/dungeon_delver.jpg",
     "location": "Savathûn's Throne World",
     "requirements": [],
-    "exoticWeapon": {},
+    "notes": "lololo",
+    "exoticWeapon": {
+      "id": 3664831848,
+      "name": "Heartshadow",
+      "hash": 3664831848,
+      "type": "weapon",
+      "weaponType": "Sword",
+      "damageType": "Void",
+      "ammoType": "Heavy",
+      "image": "https://www.bungie.net/common/destiny2_content/icons/94c6933727fa885fb2002a8c7aee5e42.jpg",
+      "description": "I dive to understand.",
+      "exoticperks": [
+        {
+          "name": "Exhumation",
+          "description": "Heavy attacks made with full Sword energy turn you invisible and fire exploding Void projectiles.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/717e56f15a73fa2c023b2f71a341e539.png"
+        },
+        {
+          "name": "Shot in the Dark",
+          "description": "Remaining invisible grants this weapon increased damage for a brief duration. Hitting a target with this weapon's projectiles while Shot in the Dark is active weakens them.",
+          "image": "https://www.bungie.net/common/destiny2_content/icons/bf7ca39c4164277fab08cba5d1e78827.png"
+        }
+      ],
+      "catalyst": null,
+      "source": "Drops at the end of the dungeon from the final boss encounter."
+    },
+    "secretChests": null,
     "encounters": [],
     "title": {
       "name": "Sundered Doctrine",
@@ -6031,7 +6431,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 3992231369,
           "name": "Unsounded Depths",
           "hash": 3992231369,
@@ -6057,7 +6457,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 3992231360,
           "name": "Last Erasure",
           "hash": 3992231360,
@@ -6081,7 +6481,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3607181138,
           "name": "Increases initial Finality's Auger drop rate.",
           "hash": 3607181138,
@@ -6105,7 +6505,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3607181138,
           "name": "Increases initial Finality's Auger drop rate.",
           "hash": 3607181138,
@@ -6129,7 +6529,7 @@
         "requirements": [
           ""
         ],
-        "reward": {
+        "rewards": {
           "id": 3607181138,
           "name": "Increases initial Finality's Auger drop rate.",
           "hash": 3607181138,
@@ -6155,7 +6555,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -6169,7 +6569,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -6183,7 +6583,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -6197,7 +6597,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -6211,7 +6611,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -6225,7 +6625,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -6239,7 +6639,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": true
       },
       {
@@ -6253,7 +6653,7 @@
           "Zoetic Lockset defeated",
           "Kerrev, the Erased defeated"
         ],
-        "reward": {
+        "rewards": {
           "id": 3607181138,
           "name": "Increases initial Finality's Auger drop rate.",
           "hash": 3607181138,
@@ -6285,7 +6685,7 @@
           "Collectibles found",
           "Collectibles found"
         ],
-        "reward": {
+        "rewards": {
           "id": 3607181138,
           "name": "Increases initial Finality's Auger drop rate.",
           "hash": 3607181138,
@@ -6309,7 +6709,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -6321,7 +6721,7 @@
         "requirements": [
           "Kerrev, the Erased defeated"
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       },
       {
@@ -6333,7 +6733,7 @@
         "requirements": [
           ""
         ],
-        "reward": null,
+        "rewards": null,
         "isTitleRequirement": false
       }
     ],
