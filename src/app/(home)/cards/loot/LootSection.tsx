@@ -1,18 +1,18 @@
 import React from "react";
-import WeaponLootCard from "./WeaponLootCard";
-import ArmorLootCard from "./ArmorLootCard";
+import ArmorCard from "./ArmorCard";
+import WeaponCard from "./WeaponCard";
 
 interface LootItem {
   id: number;
   name: string;
-  type: "weapon" | "armor";
-  weaponType?: string;
-  armorType?: string;
-  classType?: "Hunter" | "Warlock" | "Titan";
-  energy?: string;
-  ammo?: string;
+  type: string;
+  weaponType?: string | null;
+  armorType?: string | null;
+  classType?: string | null;
+  damageType?: string | null;
+  ammoType?: string | null;
   image: string;
-  encounterId: number[]; // Updated to reflect that this is an array
+  encounterId: number[]; // Encounter IDs associated with the loot item
 }
 
 interface Encounter {
@@ -23,69 +23,135 @@ interface Encounter {
 interface LootSectionProps {
   loot: LootItem[];
   encounters: Encounter[];
-  exoticWeapon: any;
 }
 
+const armorOrder = ["helmet", "gauntlets", "chest", "legs", "classitem"];
+const classOrder = ["warlock", "hunter", "titan"];
+
 export default function LootSection({ loot, encounters }: LootSectionProps) {
-  // Filter encounters to include only those that drop loot
-  const encountersWithLoot = encounters.filter((encounter) =>
-    loot.some((item) => item.encounterId.includes(encounter.id)) // Check if encounter ID exists in the array
-  );
-
+  // Filter loot items associated with encounter ID 0 (loot for all encounters)
+  const allEncountersLoot = loot.filter((item) => item.encounterId.includes(0));
+  
   return (
-    <div className="space-y-12">
-      {encountersWithLoot.map((encounter) => (
-        <div key={encounter.id} className="space-y-6">
-          <h3 className="text-xl font-semibold border-b border-gray-600 pb-2">
-            {encounter.name}
-          </h3>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Weapons Section */}
-            <div className="space-y-4">
-              <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
-                {loot
-                  .filter(
-                    (item) =>
-                      item.encounterId.includes(encounter.id) && item.type === "weapon"
-                  )
-                  .map((weapon) => (
-                    <WeaponLootCard key={weapon.id} {...weapon} className="transform scale-75" />
-                  ))}
+    <div className="space-y-8">
+      {/* Display loot for all encounters (ID 0) if any */}
+      {allEncountersLoot.length > 0 && (
+        <div className="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+          <h2 className="text-xl font-bold text-white mb-4">Loot drops for all encounters</h2>
+          <div className="space-y-6">
+            {/* Weapons for all encounters */}
+            {allEncountersLoot.filter((item) => item.type === "weapon").length > 0 && (
+              <div>
+                <h3 className="text-md font-semibold text-gray-300 mb-3">Weapons</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 gap-y-4">
+                  {allEncountersLoot
+                    .filter((item) => item.type === "weapon")
+                    .map((weapon: any) => (
+                      <WeaponCard key={weapon.id} weapon={weapon} />
+                    ))}
+                </div>
               </div>
-            </div>
+            )}
 
-            {/* Armor Section */}
-            <div className="space-y-4">
-              <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
-                {Object.entries(
-                  loot
-                    .filter(
-                      (item) =>
-                        item.encounterId.includes(encounter.id) && item.type === "armor"
-                    )
-                    .reduce((acc: { [key: string]: LootItem[] }, item) => {
-                      if (item.armorType) {
-                        acc[item.armorType] = acc[item.armorType] || [];
-                        acc[item.armorType].push(item);
-                      }
-                      return acc;
-                    }, {})
-                ).map(([armorType, pieces]) => (
-                  <ArmorLootCard
-                    key={armorType}
-                    type={armorType}
-                    pieces={pieces.filter(
-                      (piece): piece is LootItem & { classType: "Hunter" | "Warlock" | "Titan" } =>
-                        piece.classType !== undefined
-                    )}
-                    className="transform scale-75"
-                  />
-                ))}
+            {/* Armor for all encounters */}
+            {allEncountersLoot.filter((item) => item.type === "armor").length > 0 && (
+              <div>
+                <h3 className="text-md font-semibold text-gray-300 mb-3">Armor</h3>
+                <div className="space-y-2">
+                  {armorOrder.map((armorType) => {
+                    const filteredArmor = allEncountersLoot.filter(
+                      (item) => item.armorType?.toLowerCase() === armorType
+                    );
+                    if (filteredArmor.length === 0) return null;
+                    return (
+                      <div key={armorType} className="mt-2">
+                        <h4 className="text-sm font-semibold text-gray-400 capitalize mb-1">{armorType}</h4>
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 gap-y-4">
+                          {classOrder.map((classType) => {
+                            const classFilteredArmor = filteredArmor.filter(
+                              (item) => item.classType?.toLowerCase() === classType
+                            );
+                            if (classFilteredArmor.length === 0) return null;
+                            return (
+                              <React.Fragment key={classType}>
+                                {classFilteredArmor.map((armorItem: any) => (
+                                  <ArmorCard key={armorItem.id} armor={armorItem} />
+                                ))}
+                              </React.Fragment>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
-      ))}
+      )}
+
+      {/* Loop over other encounters and display their loot */}
+      {encounters
+        .filter((encounter) => encounter.id !== 0) // Exclude encounter with ID 0
+        .map((encounter) => {
+          const encounterLoot = loot.filter((item) => item.encounterId.includes(encounter.id));
+          const weapons = encounterLoot.filter((item) => item.type === "weapon");
+          const armor = encounterLoot.filter((item) => item.type === "armor");
+
+          if (encounterLoot.length === 0) return null;
+
+          return (
+            <div key={encounter.id} className="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+              <h2 className="text-xl font-bold text-white mb-4">{encounter.name}</h2>
+              <div className="space-y-6">
+                {weapons.length > 0 && (
+                  <div>
+                    <h3 className="text-md font-semibold text-gray-300 mb-3">Weapons</h3>
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 gap-y-4">
+                      {weapons.map((weapon: any) => (
+                        <WeaponCard key={weapon.id} weapon={weapon} />
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {armor.length > 0 && (
+                  <div>
+                    <h3 className="text-md font-semibold text-gray-300 mb-3">Armor</h3>
+                    <div className="space-y-2">
+                    {armorOrder.map((armorType) => {
+                      const filteredArmor = armor.filter(
+                        (item) => item.armorType?.toLowerCase() === armorType
+                      );
+                      if (filteredArmor.length === 0) return null;
+                      return (
+                        <div key={armorType} className="mt-2">
+                          <h4 className="text-sm font-semibold text-gray-400 capitalize mb-1">{armorType}</h4>
+                          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 gap-y-4">
+                            {classOrder.map((classType) => {
+                              const classFilteredArmor = filteredArmor.filter(
+                                (item) => item.classType?.toLowerCase() === classType
+                              );
+                              if (classFilteredArmor.length === 0) return null;
+                              return (
+                                <React.Fragment key={classType}>
+                                  {classFilteredArmor.map((armorItem: any) => (
+                                    <ArmorCard key={armorItem.id} armor={armorItem} />
+                                  ))}
+                                </React.Fragment>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      );
+                    })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
     </div>
   );
 }

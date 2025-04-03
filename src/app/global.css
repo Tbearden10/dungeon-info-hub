@@ -71,3 +71,41 @@ body::before {
 .modal-open {
   overflow: hidden;
 }
+
+.loot-section {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.encounter-section {
+  margin-bottom: 24px;
+}
+
+.encounter-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+}
+
+:root {
+  --primary-color: #1E3A8A; /* Default primary color */
+  --secondary-color: #3B82F6; /* Default secondary color */
+}
+
+.dungeon-container {
+  background-color: var(--secondary-color);
+  border-color: var(--primary-color);
+}
+
+.dungeon-title {
+  color: var(--primary-color);
+}
+
+.dungeon-button {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}

@@ -30,6 +30,10 @@ interface Dungeon {
   loot: any[];
   encounters: any[];
   title?: Title;
+  colorScheme: {
+    primary: string; // e.g., "#1E3A8A" (blue)
+    secondary: string; // e.g., "#3B82F6" (lighter blue)
+  };
 }
 
 interface DungeonCardProps {
